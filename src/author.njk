@@ -1,0 +1,33 @@
+---
+pagination:
+  data: authors
+  size: 1
+  alias: authors
+authors:
+ - Chester Jankowski
+title: "Author archive."
+layout: "base.njk"
+author: "Resources For Jazz Guitar"
+description: "Author archive."
+permalink: "author/{{ authors | slugify }}/index.html"
+eleventyExcludeFromCollections: "true"
+coverImage: "culturednyc-og-image.png"
+---
+{%- for item in pagination.items %}
+    <h3>Author archive: {{ item }}</h3>
+    <br>
+    <div class="post-list">
+    <ul>
+    {% for post in collections.post | reverse %}
+        {% if post.data.author == item %}
+            <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
+            {% include 'byline.njk' %}
+            <br>
+            {{ post.data.description }}
+            <p></p>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    </div>
+{% endfor -%}
+

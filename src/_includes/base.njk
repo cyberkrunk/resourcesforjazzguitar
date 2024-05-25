@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description or 'Resources For Jazz Guitar' }}">
+    <meta name="author" content="{{ author or 'Resources For Jazz Guitar' }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="{{ ogType or 'website' }}">
+    <meta property="og:url" content="https://resourcesforjazzguitar.com{{ page.url }}">
+    <meta property="og:image" content="https://resourcesforjazzguitar.com/assets/{{ coverImage }}">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        {% include 'header.njk' %}
+    </header>
+    <main>
+        {{ content | safe }}
+    </main>
+    <script>
+        {% include 'script.njk' %}
+    </script>
+    <footer>
+        {% include 'footer.njk' %}
+    </footer>    
+</body>
+</html>

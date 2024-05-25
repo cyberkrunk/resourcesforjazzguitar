@@ -1,0 +1,33 @@
+---
+pagination:
+  data: categories
+  size: 1
+  alias: categories
+categories:
+ - Scales
+title: "Category archive."
+layout: "base.njk"
+author: "Resources For Jazz Guitar"
+description: "Category archive."
+permalink: "category/{{ categories | slugify }}/index.html"
+eleventyExcludeFromCollections: "true"
+coverImage: "culturednyc-og-image.png"
+---
+{%- for item in pagination.items %}
+    <h3>Category archive: {{ item }}</h3>
+    <br>
+    <div class="post-list">
+    <ul>
+    {% for post in collections.post | reverse %}
+        {% if post.data.categories == item %}
+            <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
+            {% include 'byline.njk' %}
+            <br>
+            {{ post.data.description }}
+            <p></p>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    </div>
+{% endfor -%}
+
