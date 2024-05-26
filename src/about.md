@@ -1,12 +1,17 @@
 ---
-layout: article.njk
-eleventyNavigation:
-    key: About Chester Jankowski
-    parent: About
-    order: 1
-    excerpt: Who is this guy anyway?
-title: About Chester Jankowski
+layout: page.njk
+title: About Resources For Jazz Guitar
 ---
+
+## About this site
+
+Welcome to Resources For Jazz Guitar! As of today, in May 2024, there is not yet a great deal of material here, but this site will grow to include materials that should be interesting to intermediate to advanced jazz guitarists. I have a few major goals for this site.
+
+Goal number one is to include a good amount of music theory, and also to describe the theory in a way that's compatible with contemporary academic music theory. I find that much of jazz pedagogy presents ideas, for example, “use this pattern for this progression” without explaining *why* the pattern works. I also find that writers sometimes try to describe an idea from first principles, when there is already a good set of tools and terms available in academic music theory. As such, I’ll be using some concepts, like pitch class set theory, that aren’t often seen in the jazz pedagogy context.
+
+Goal number two is, in a way, the complement of goal number one, and that is to provide actual practice materials to get the concepts into our fingers, so to speak. Ultimately, I would like to include a good number of exercises, studies, and etudes to facilitate the practice of these materials.
+
+Goal number three is to create a hub for teaching materials for my private students.
 
 ## Guitarist bio
 
