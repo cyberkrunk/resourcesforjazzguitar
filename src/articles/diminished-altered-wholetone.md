@@ -8,12 +8,12 @@ title: Dominant 7b5 and the Diminished, Altered, and Wholetone Scales
 author: Chester Jankowski
 date: "2023-02-01"
 categories:
-    - Scales
+    - scales
 tags:
     - post
-    - Diminished
-    - Altered
-    - Wholetone
+    - diminished
+    - altered
+    - wholetone
 permalink: "/diminished-altered-wholetone/"
 description: "The dominant 7b5 tetrachord {0, 4, 6, 10} is a subset of the diminished, altered, and wholetone scales. We can use this to develop a useful fingering pattern for all three scales."
 ---
