@@ -13,7 +13,7 @@ Goal number two is, in a way, the complement of goal number one, and that is to 
 
 Goal number three is to create a hub for teaching materials for my private students.
 
-## Chester Jankowski - guitarist bio
+## Guitarist bio
 
 Like so many other guitarists, I first picked up the instrument as a child and learned to play mostly by ear, learning songs from records and the radio, and playing in garage bands. I began studying in earnest in my teens, studying jazz with local teachers in London Ontario (Franco Cucinelli, <a href="https://tomlockwoodguitar.ca/" target="_blank">Tom Lockwood</a>), playing in a big band (led by <a href="https://lfpress.com/entertainment/local-arts/edmonds-celebrates-what-he-cant-hide-at-london-concert" target="_blank">Joe Edmonds</a>, who was a wonderful man and a top-notch musician), and doing lots of listening. The guitarists I listened to the most included Joe Pass, Tal Farlow, Lenny Breau, Ed Bickert, Grant Green, and Kenny Burrell. I then took up classical guitar (<a href="https://www.raysealey.com/" target="_blank">Ray Sealey</a>, Alan Torok, both of whom were also composers) and at the same time began studying piano, harmony, and counterpoint with an excellent private teacher, David K. Miller, and at the <a href="https://www.thecanadianencyclopedia.ca/en/article/western-ontario-conservatory-of-music-emc" target="_blank">Western Ontario Conservatory of Music</a>. I took a gap year before university and in addition to the theory studies, I practiced for about 8 hours every day.
 
