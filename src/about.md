@@ -1,6 +1,7 @@
 ---
 layout: about.njk
 title: About Resources For Jazz Guitar
+description: "About Resources For Jazz Guitar"
 ---
 
 ## About this site
