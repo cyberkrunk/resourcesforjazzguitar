@@ -27,17 +27,13 @@ The key to the lesson is the arpeggio in example 1. You can think of it as a Dom
 
 As you continue to play the arpeggio, you will notice that the major third on each string creates a gap of three semitones between the 1st and 4th fingers. “How can we fill in that gap? Ah!” Let’s start by filling in the gap with the note in the middle. That note is one whole tone above the 1st finger and one whole tone under the 4th finger. Playing it through, it looks like this.
 
-![Wholetone 3 octaves to the 7th](images/02-Whole-tone-3-octaves-to-7th.png "Ex. 2")
-
-<p class="text-center">Ex. 2</p>
+<figure><img src="images/02-Whole-tone-3-octaves-to-7th.png" alt="Wholetone 3 octaves to the 7th"><figcaption>Ex. 2</figcaption></figure>
 
 OK, so now we have a nice fingering for a three octave whole tone scale. With this fingering, it is easy to see the symmetry of the scale–the fingering does not contradict the symmetry.
 
 By adding one note in the middle of the gap, we maintain the symmetry. What if we want to add two notes into the gap? If we add a semitone above the 1st finger, and another semitone below the 4th finger, we end up with the three octave diminished scale in example 3.
 
-![Diminished 3 octaves to 7th](images/03-Diminished-3-octaves-to-7th.png "Ex. 3")
-
-<p class="text-center">Ex. 3</p>
+<figure><img src="images/03-Diminished-3-octaves-to-7th.png" alt="Diminished 3 octaves to 7th"><figcaption>Ex. 3</figcaption></figure>
 
 This is a very important fingering for the diminished scale. Once again, the fingering illuminates the scale’s underlying symmetry, it does not contradict it. And because of the repeated fingering pattern, it should be possible to get this run very fast with some practice.
 
@@ -45,17 +41,13 @@ OK, now we have seen two ways to fill in the gap in our original arpeggio, with 
 
 For our next run, we will follow the pattern ‘add two notes’, then ‘add one note’, and repeat that up the strings. What we end up with is the altered scale in example 4.
 
-![Altered 3 octaves to 7th](images/04-Altered-3-octaves-to-7th.png "Ex. 4")
-
-<p class="text-center">Ex. 4</p>
+<figure><img src="images/04-Altered-3-octaves-to-7th.png" alt="!["Altered 3 octaves to 7th"><figcaption>Ex. 4</figcaption></figure>
 
 The altered scale is sometimes called the “diminished, whole tone” scale, and this fingering makes that label very clear. It is literally four notes of diminished followed by three notes of whole tone.
 
 OK, so we tried ‘add two notes’, followed by ‘add one note’. What if we reverse the order, and try ‘add one note’ followed by ‘add two notes’? Now we end up with example 5, which is the lydian dominant scale.
 
-![Lydian dominant 3 octaves to the 7th](images/05-Lydian-dominant-3-octaves-to-7th.png "Ex. 5")
-
-<p class="text-center">Ex. 5</p>
+<figure><img src="images/05-Lydian-dominant-3-octaves-to-7th.png" alt="Lydian dominant 3 octaves to the 7th"><figcaption>Ex. 5</figcaption></figure>
 
 What I love about these fingerings for altered and lydian dominant, is, once again, they make plain the relationship of the two scales, most importantly, how they pair with each other at the tritone. G altered is C# lydian dominant; G lydian dominant is C# altered.
 
@@ -63,33 +55,21 @@ We have already covered a lot of material. So maybe now is a good time to pause 
 
 Where to next? Well, while it’s good to practice mixing 8ths, 16ths and triplets, it’s also a good idea to practice these scales with a constant rhythm. Triplets are always good with three octave scales. Examples 6 and 7 take our altered and lydian dominant scales into a constant triplet rhythm. Note that, while our fingering patterns were perfectly aligned with the meter in the previous examples, and now they’re not. That’s fine. You should obviously also practice these fingerings with other rhythmic patterns too.
 
-![Altered 3 octaves to 7th](images/06-Altered-3-octaves-to-7th-triplets.png "Ex. 6")
+<figure><img src="images/06-Altered-3-octaves-to-7th-triplets.png" alt="Altered 3 octaves to 7th"><figcaption>Ex. 6</figcaption></figure>
 
-<p class="text-center">Ex. 6</p>
-
-![Lydian dominant 3 octaves to 7th](images/07-Lydian-dominant-3-octaves-to-7th-triplets.png "Ex. 7")
-
-<p class="text-center">Ex. 7</p>
+<figure><img src="images/07-Lydian-dominant-3-octaves-to-7th-triplets.png" alt="Lydian dominant 3 octaves to 7th"><figcaption>Ex. 7</figcaption></figure>
 
 All of the previous examples have been three octaves up to the 7th only. That has been on purpose, so that the fingerings are symmetrical up and down (at least in examples 1 – 5). But it’s also desirable to practice these scales and arpeggios all the way up to the tonic. Example 8 shows our original arpeggio, all the way up to the high G. 
 
-![Dominant 7th arpeggio 3 octaves to tonic](images/08-Dom7b5-arpeggio-3-octaves-to-tonic.png "Ex. 8")
-
-<p class="text-center">Ex. 8</p>
+<figure><img src="images/08-Dom7b5-arpeggio-3-octaves-to-tonic.png" alt="Dominant 7th arpeggio 3 octaves to tonic"><figcaption>Ex. 8</figcaption></figure>
 
 Examples 9, 10, and 11 take our diminished, altered, and lydian dominant scales up a full three octaves to the tonic. You should practice these, along with the full three octave whole tone scale, which should be easy to figure out at this point.
 
-![Diminished 3 octaves to tonic](images/09-Diminished-3-octaves-to-tonic.png "Ex. 9")
+<figure><img src="images/09-Diminished-3-octaves-to-tonic.png" alt="Diminished 3 octaves to tonic"><figcaption>Ex. 9</figcaption></figure>
 
-<p class="text-center">Ex. 9</p>
+<figure><img src="images/10-Altered-3-octaves-to-tonic.png" alt="Altered 3 octaves to tonic"><figcaption>Ex. 10</figcaption></figure>
 
-![Altered 3 octaves to tonic](images/10-Altered-3-octaves-to-tonic.png "Ex.10")
-
-<p class="text-center">Ex. 10</p>
-
-![Lydian dominant 3 octaves to tonic](images/11-Lydian-dominant-3-octaves-to-tonic.png "Ex. 11")
-
-<p class="text-center">Ex. 11</p>
+<figure><img src="images/11-Lydian-dominant-3-octaves-to-tonic.png" alt="Lydian dominant 3 octaves to tonic"><figcaption>Ex. 11</figcaption></figure>
 
 I hope that if you have followed along this far, you have gained some insight into how the dominant 7 b5 arpeggio is the common link between the whole tone, diminished, altered, and lydian dominant scales. I hope you find the fingerings useful. This concludes the ‘conventional’ part of this lesson. 
 
@@ -99,20 +79,14 @@ What if we want to continue exploring the above ideas? Well, since we have looke
 
 In example 4, the altered scale up and down forms a perfect palindrome, in pitch as well as in rhythm. One interesting way to break the palindrome in shown in example 12. Now our groupings are 4-3-4-3-4-3… This creates an ascending altered scale followed by a descending lydian dominant scale. It’s an interesting color.
 
-![Altered up, lydian dominant down](images/12-Altered-up-Lydian-dominant-down.png "Ex. 12")
-
-<p class="text-center">Ex. 12</p>
+<figure><img src ="images/12-Altered-up-Lydian-dominant-down.png" alt="Altered up, lydian dominant down"><figcaption>Ex. 12</figcaption></figure>
 
 Example 13 does a similar treatment with groupings of 3-4-3-4… This creates an ascending lydian dominant followed by a descending altered scale.
 
-![Lydian dominant up, altered down](images/13-Lydian-dominant-up-altered-down.png "Ex. 13")
-
-<p class="text-center">Ex. 13</p>
+<figure><img src ="images/13-Lydian-dominant-up-altered-down.png" alt="Lydian dominant up, altered down"><figcaption>Ex. 13</figcaption></figure>
 
 Finally in example 14, we are mixing and matching all the elements: fragments of the arpeggio, and all four scales. Once all the elements in this lesson are fluent, you can combine them in endless way.
 
-![Hybrid](images/14-Hybrid.png "Ex. 14")
-
-<p class="text-center">Ex. 14</p>
+<figure><img src ="images/14-Hybrid.png" alt="Hybrid"><figcaption>Ex. 14</figcaption></figure>
 
 That’s all for this lesson, and there is enough material here to keep one busy for quite a while. I would love to hear any feedback or questions. I would also be happy to make a PDF of the exercises available to anyone who asks.
