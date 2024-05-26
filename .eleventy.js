@@ -3,6 +3,8 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/style.css");
 	eleventyConfig.addPassthroughCopy("./src/assets");
+	eleventyConfig.addPassthroughCopy("./src/rfjg-logo-48.svg");
+	eleventyConfig.addPassthroughCopy("./src/favicon.png");
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
 		extensions: "html",

@@ -31,7 +31,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #0073aa;
+    color: #3345cc;
     font-weight: bolder;
     letter-spacing: -0.5;
 }
@@ -160,10 +160,10 @@ p{
     line-height: 1.6;
 }
 .article-text a:link{
-    color: #0073aa;
+    color: #3345cc;
 }
 .article-text a:visited{
-    color: #0073aa;
+    color: #3345cc;
 }
 .article-text ul{
     list-style: inside;
@@ -190,10 +190,10 @@ footer ul{
     list-style-type: none;
 }
 footer a:link{
-    color: #0073aa;
+    color: #3345cc;
 }
 footer a:visited{
-    color: #0073aa;
+    color: #3345cc;
 }
 @media(max-width: 800px){
     .hideOnMobile{
