@@ -15,7 +15,10 @@ tags:
     - Altered
     - Wholetone
 permalink: "/diminished-altered-wholetone/"
+description: "The dominant 7b5 tetrachord {0, 4, 6, 10} is a subset of the diminished, altered, and wholetone scales. We can use this to develop a useful fingering pattern for all three scales."
 ---
+
+_A version of this post first appeared on my blog at [www.chesterjankowski.com](https://www.chesterjankowski.com/resources-for-jazz-guitar-three-octave-runs/)._
 
 ## Three-octave scales and commonalities
 

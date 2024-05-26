@@ -44,6 +44,7 @@ nav li:first-child{
 nav img{
     height: 48px;
     width: 48px;
+    padding-right: 30px;
 }
 .sidebar{
     position: fixed;

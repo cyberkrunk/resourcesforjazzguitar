@@ -6,6 +6,8 @@ ogType: "article"
     <div class="article-hero">
         <h1>{{ title }}</h1>
         {% include 'byline-article.njk' %}
+        <br>{{ description }}
+        <p></p>
     </div>
     <div class="article-text">
         {{ content | safe }}
