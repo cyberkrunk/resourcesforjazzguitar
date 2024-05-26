@@ -33,6 +33,7 @@ nav a{
     align-items: center;
     color: #3345cc;
     font-weight: bolder;
+    font-size: larger;
     letter-spacing: -0.5;
 }
 nav a:hover{
