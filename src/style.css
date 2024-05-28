@@ -112,7 +112,11 @@ figure p{
     margin-bottom: 0;
 }
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.img-small{
+    max-width: 25%;
     height: auto;
 }
 .svg-icon{
@@ -216,5 +220,9 @@ footer a:visited{
         font-size: 38px;
         font-weight: normal;
         line-height: 1.2;
+    }
+    .img-small{
+        max-width: 80%;
+        height: auto;
     }
 }
