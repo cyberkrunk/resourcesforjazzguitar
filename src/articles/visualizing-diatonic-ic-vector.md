@@ -19,7 +19,7 @@ description: "The diatonic collection has the deep scale property: each element 
 
 Let's begin with some review. A pitch class, which we can shorten to 'pc', represents a pitch without regard for octave or enharmonic spelling, so for example, we can write C1, B#2, and Dbb3 all as the single pitch class {0}. We could write out the complete diatonic collection "In C" as follows: {0, 2, 4, 5, 7, 9, 11}.
 
-Similarly, an interval class, or 'ic', is the smallest distance, in semitones, between two pitch classes. Let's take the interval between C1 and G1. In pc terms, that would be {0, 7}. So clearly, the distance in semitones is 7-0=7, right? Yes, but there is an even smaller distance if instead of climbing down from 7 to 0, you climb up to 12, which is also equivalent to 0. So the smallest distance is 12-7=5. The easiest way to visualize this is with a circle diagram.
+Similarly, an interval class, or 'ic', is the smallest distance, in semitones, between two pitch classes. Let's take the interval between C1 and G1. In pc terms, that would be {0, 7}. So clearly, the distance in semitones is 7-0=7, right? Yes, but there is an even smaller distance if instead of climbing down from 7 to 0, you climb up to 12, which is also equivalent to 0. So the smallest distance is 12-7=5. Remember, though, there is not really an 'up' or 'down' when comparing pitch classes. A better way to visualize this is with a circle diagram.
 
 <figure><img class="img-small" src="images/circle-diagram-c-g-hd.png" alt="circle diagram" max-width="25%"><figcaption>Ex. 1</figcaption></figure>
 
