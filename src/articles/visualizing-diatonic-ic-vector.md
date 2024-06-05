@@ -15,7 +15,11 @@ permalink: "/visualizing-diatonic-ic-vector/"
 description: "The diatonic collection has the deep scale property: each element in its ic vector is unique. By looking at the collection as a 'stack of fourths,' we can easily visualize how and why each ic is unique."
 ---
 
-## Interval Class Vectors
+The interval class vector is a convenient way to represent the total intervallic content of a given pitch class set. One of the interesting properties of the diatonic collection is that each element in its interval class vector is unique. It is instructive to examine just how the various intervals are represented: perfect fourth (ic 5): 6, major second (ic 2): 5, minor third (ic 3): 4, major third (ic 4): 3, minor second (ic 2): 2, tritone (ic 6): 1. Making a few quick observations, the diatonic collection has more perfect fourths than anything else, more minor thirds than major thirds, and of course, (hopefully this is something we all learned very early on) only one tritone.
+
+In order to visualize how this particular ic vector works, one approach might be to write out the diatonic collection as a scale or mode, and then label each interval. A much better way to visualize this ic vector is to write out the diatonic collection as a series of ic 5, or "stacked fourths." In this way, we can see exactly how and why each ic in the vector is unique.
+
+## Review: Pitch Class, Interval Class
 
 Let's begin with some review. A pitch class, which we can shorten to 'pc', represents a pitch without regard for octave or enharmonic spelling, so for example, we can write C1, B#2, and Dbb3 all as the single pitch class {0}. We could write out the complete diatonic collection "In C" as follows: {0, 2, 4, 5, 7, 9, 11}.
 
