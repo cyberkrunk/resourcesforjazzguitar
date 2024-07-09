@@ -41,17 +41,25 @@ Major tetrachord: i(2-2-1) p(0,2,4,5) symmetry: mirror of phrygian
 
 Lydian tetrachord: i(2-2-2) p(0,2,4,6) symmetry: yes
 
-Let's now add a new constraint, concerning the interval 3.
+**Constraint 1a:** An interval of 1 is allowed, and also may now be repeated.
+
+Chromatic tetrachord: i(1-1-1) p(0,1,2,3) symmetry: yes
+
+Ui(1-1-2) p(0,1,2,4)
+
+"Straight, No Chaser" tetrachord: i(2-1-1) p(0,2,3,4) 
+
+Let's now add an entirely new constraint, concerning the interval 3.
 
 **Constraint 3:** An interval of 3 is allowed, but may only be used once in the tetrachord.
 
-Harmonic dominant i(1-3-1) p(0,1,4,5) symmetry: yes
+Harmonic dominant tetrachord i(1-3-1) p(0,1,4,5) symmetry: yes
 
 i(1-2-3) p(0,1,3,6)
 
 All-interval tetrachord i(1-3-2) p(0,1,4,6)
 
-Lydian minor i(2-1-3) p(0,2,3,6)
+Lydian minor tetrachord i(2-1-3) p(0,2,3,6)
 
 i(2-3-1) p(0,2,5,6)
 
