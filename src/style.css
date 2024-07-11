@@ -187,6 +187,16 @@ blockquote{
     padding-right: 1em;
     border-left: 2px solid #0073aa;
 }
+table{
+    padding-left: 1em;
+    padding-bottom: 1em;    
+}
+
+th, td{
+    text-align: left;
+    padding-right: 16px;
+}
+
 footer{
     margin-top: auto;
     padding-top:  1em;

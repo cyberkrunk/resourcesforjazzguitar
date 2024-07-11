@@ -56,40 +56,319 @@
 <p>I think that part of the blame lies in the over-emphasis on practicing scales strictly in position. While it is true that scale practice in position leads to good muscle memory and fast execution, it places an obvious limit on range, with a typical position providing at best just over two octaves. Position playing also tends to &quot;chunk&quot; a scale into an entire position, making it difficult to change to any arbitrary scale at any point.</p>
 <p>In my own practice, I have come to believe that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for other articles and lessons. Conversely, when I reference scalar tetrachords in other materials, I refer anyone who needs a refresher back to this article.</p>
 <h2>Constructing scalar tetrachords: intervallic constraints</h2>
-<p>What makes a tetrachord scale-like? The two key properties of scales is that they are constructed of &quot;smaller&quot; intervals, and they continue in one direction. Let's dive in and start constructing tetrachords by listing some constraints on which &quot;smaller&quot; intervals may be used.</p>
-<p><strong>Constraint 1:</strong> An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; the interval subset (1-1) is not allowed.</p>
+<p>What makes a tetrachord scale-like? The two key properties of scales are that they are constructed of &quot;smaller&quot; intervals, and they continue in one direction. Let's dive in and start constructing tetrachords by listing some constraints on which &quot;smaller&quot; intervals may be used. Let's define the smaller intervals as being intervals of 1, 2, or 3 semitones. But for our first group of tetrachords, we will just consider intervals of 1 or 2 semitones.</p>
+<p><strong>Constraint 1:</strong> An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; the interval subset i(1-1) is not allowed.</p>
 <p><strong>Constraint 2:</strong> An interval of 2 is allowed, and may also be repeated.</p>
-<p>With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show the ordered interval set used to construct the tetrachord, an ordered pitch set of the tetrachord using integer notation, a representation of the set as points on a number line, and a name for the tetrachord.</p>
-<p>Diminished tetrachord: i(1-2-1) p(0,1,3,4) symmetry: yes</p>
-<p>Phrygian tetrachord: i(1-2-2) p(0,1,3,5) symmetry: mirror of major</p>
-<p>Minor tetrachord: i(2-1-2) p(0,2,3,5) symmetry: yes</p>
-<p>Major tetrachord: i(2-2-1) p(0,2,4,5) symmetry: mirror of phrygian</p>
-<p>Lydian tetrachord: i(2-2-2) p(0,2,4,6) symmetry: yes</p>
+<p>With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show the ordered interval set used to construct the tetrachord, an ordered pitch set of the tetrachord using integer notation, and a name for the tetrachord.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Interval set</th>
+<th>Pitch set</th>
+<th>Symmetry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Diminished tetrachord</td>
+<td>i(1-2-1)</td>
+<td>p(0,1,3,4)</td>
+<td>self</td>
+</tr>
+<tr>
+<td>Phrygian tetrachord</td>
+<td>i(1-2-2)</td>
+<td>p(0,1,3,5)</td>
+<td>mirror of major</td>
+</tr>
+<tr>
+<td>Minor tetrachord</td>
+<td>i(2-1-2)</td>
+<td>p(0,2,3,5)</td>
+<td>self</td>
+</tr>
+<tr>
+<td>Major tetrachord</td>
+<td>i(2-2-1)</td>
+<td>p(0,2,4,5)</td>
+<td>mirror of phrygian</td>
+</tr>
+<tr>
+<td>Lydian tetrachord</td>
+<td>i(2-2-2)</td>
+<td>p(0,2,4,6)</td>
+<td>self</td>
+</tr>
+</tbody>
+</table>
+<p>Now let's revisit our first constraint about intervals of 1. If we now allow immediate repetitions of interval 1, we add three more tetrachords. This brings our total to eight tetrachords, which is the total number of tetrachords one can construct out of the intervals 1 and 2.</p>
 <p><strong>Constraint 1a:</strong> An interval of 1 is allowed, and also may now be repeated.</p>
-<p>Chromatic tetrachord: i(1-1-1) p(0,1,2,3) symmetry: yes</p>
-<p>i(1-1-2) p(0,1,2,4)</p>
-<p>&quot;Straight, No Chaser&quot; tetrachord: i(2-1-1) p(0,2,3,4)</p>
-<p>Let's now add an entirely new constraint, concerning the interval 3.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Interval set</th>
+<th>Pitch set</th>
+<th>Symmetry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chromatic tetrachord</td>
+<td>i(1-1-1)</td>
+<td>p(0,1,2,3)</td>
+<td>self</td>
+</tr>
+<tr>
+<td></td>
+<td>i(1-1-2)</td>
+<td>p(0,1,2,4)</td>
+<td>mirror of &quot;Straight, No Chaser&quot;</td>
+</tr>
+<tr>
+<td>&quot;Straight, No Chaser&quot;</td>
+<td>i(2-1-1)</td>
+<td>p(0,2,3,4)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>With these three added tetrachords, we can now also construct the chromatic scale, as well as the family of bebop scales. Together with the scales we added previously, this now covers almost all of the most widely-used scales in jazz. However, we still have not been able to construct the pentatonic scales, or the harmonic minor and harmonic major scales. In order to add those scales, we will need additional tetrachords that include the interval of 3 semitones, so let's address that now, with a new constraint.</p>
 <p><strong>Constraint 3:</strong> An interval of 3 is allowed, but may only be used once in the tetrachord.</p>
-<p>Harmonic dominant tetrachord i(1-3-1) p(0,1,4,5) symmetry: yes</p>
-<p>i(1-2-3) p(0,1,3,6)</p>
-<p>All-interval tetrachord i(1-3-2) p(0,1,4,6)</p>
-<p>Lydian minor tetrachord i(2-1-3) p(0,2,3,6)</p>
-<p>i(2-3-1) p(0,2,5,6)</p>
-<p>i(3-1-2) p(0,3,4,6)</p>
-<p>Blues tetrachord i(3-2-1) p(0,3,5,6)</p>
-<p>Major pentatonic tetrachord i(2-2-3) p(0,2,4,7) symmetry: mirror of minor pentatonic tetrachord</p>
-<p>&quot;I've Got Rhythm&quot; tetrachord i(2-3-2) p(0,2,5,7) symmetry: yes</p>
-<p>Minor pentatonic tetrachord i(3-2-2) p(0,3,5,7) symmetry: mirror of major pentatonic tetrachord</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Interval set</th>
+<th>Pitch set</th>
+<th>Symmetry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Harmonic dominant</td>
+<td>i(1-3-1)</td>
+<td>p(0,1,4,5)</td>
+<td>self</td>
+</tr>
+<tr>
+<td></td>
+<td>i(1-2-3)</td>
+<td>p(0,1,3,6)</td>
+<td></td>
+</tr>
+<tr>
+<td>All-interval</td>
+<td>i(1-3-2)</td>
+<td>p(0,1,4,6)</td>
+<td></td>
+</tr>
+<tr>
+<td>Lydian minor</td>
+<td>i(2-1-3)</td>
+<td>p(0,2,3,6)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>i(2-3-1)</td>
+<td>p(0,2,5,6)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>i(3-1-2)</td>
+<td>p(0,3,4,6)</td>
+<td></td>
+</tr>
+<tr>
+<td>Blues tetrachord</td>
+<td>i(3-2-1)</td>
+<td>p(0,3,5,6)</td>
+<td></td>
+</tr>
+<tr>
+<td>Major pentatonic</td>
+<td>i(2-2-3)</td>
+<td>p(0,2,4,7)</td>
+<td>mirror of minor pentatonic</td>
+</tr>
+<tr>
+<td>&quot;I've Got Rhythm&quot;</td>
+<td>i(2-3-2)</td>
+<td>p(0,2,5,7)</td>
+<td>self</td>
+</tr>
+<tr>
+<td>Minor pentatonic</td>
+<td>i(3-2-2)</td>
+<td>p(0,3,5,7)</td>
+<td>mirror of major pentatonic</td>
+</tr>
+</tbody>
+</table>
 <h2>Constructing scales with the tetrachords</h2>
+<p>Until now, we have been thinking of tetrachords as entities in themselves, so now let's look at how the various tetrachords combine to form scales.</p>
 <h3>Diatonic modes</h3>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Lower tetrachord</th>
+<th>Upper tetrachord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Major</td>
+<td>Major</td>
+<td>Major</td>
+</tr>
+<tr>
+<td>Dorian</td>
+<td>Minor</td>
+<td>Minor</td>
+</tr>
+<tr>
+<td>Phrygian</td>
+<td>Phrygian</td>
+<td>Phrygian</td>
+</tr>
+<tr>
+<td>Lydian</td>
+<td>Lydian</td>
+<td>Major</td>
+</tr>
+<tr>
+<td>Mixolydian</td>
+<td>Major</td>
+<td>Minor</td>
+</tr>
+<tr>
+<td>Aeolian</td>
+<td>Minor</td>
+<td>Phrygian</td>
+</tr>
+<tr>
+<td>Locrian</td>
+<td>Phrygian</td>
+<td>Lydian</td>
+</tr>
+</tbody>
+</table>
 <h3>Melodic minor modes</h3>
-<h3>Diminished modes</h3>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Lower tetrachord</th>
+<th>Upper tetrachord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Melodic minor</td>
+<td>Minor</td>
+<td>Major</td>
+</tr>
+<tr>
+<td>Dorian b2</td>
+<td>Phrygian</td>
+<td>Minor</td>
+</tr>
+<tr>
+<td>Lydian #5</td>
+<td>Lydian</td>
+<td>Minor</td>
+</tr>
+<tr>
+<td>Lydian dominant</td>
+<td>Lydian</td>
+<td>Major</td>
+</tr>
+<tr>
+<td>Mixolydian b6</td>
+<td>Major</td>
+<td>Minor</td>
+</tr>
+<tr>
+<td>Locrian #2</td>
+<td>Minor</td>
+<td>Phrygian</td>
+</tr>
+<tr>
+<td>Altered scale</td>
+<td>Diminished</td>
+<td>Lydian</td>
+</tr>
+</tbody>
+</table>
+<h3>The diminished scale</h3>
+<p>The diminished scale has only two modes. Some people in jazz pedagogy like to call the two modes the &quot;half-whole&quot; and the &quot;whole-half,&quot; and some go even further and call these two separate scales to be used on different chords, e.g., use the &quot;half-whole&quot; on a dominant 7th chord, the the &quot;whole-half&quot; on a diminished 7th chord. As you may have guessed, I do not care for that way of thinking, because it obscures the relationship of the dominant and diminished 7th chords, and also makes the diminished scale seem far less interesting than it is--which is a topic that I will explore in depth elsewhere on this site.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Lower tetrachord</th>
+<th>Upper tetrachord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode 1</td>
+<td>Diminished</td>
+<td>Diminished</td>
+</tr>
+<tr>
+<td>Mode 2</td>
+<td>Minor</td>
+<td>Minor</td>
+</tr>
+</tbody>
+</table>
+<p>Because the diminished scale is an octatonic scale, two tetrachords align perfectly with one octave of the scale. That means that the next octave will repeat exactly the previous two tetrachords. But, as we see, each mode consists of two repetitions of the same tetrachord, so the next octave will repeat the same tetrachord, and so on until you reach the top of your instrument. So, for example, three octaves of mode 1 would proceed as diminished - diminished - diminished - diminished - diminished - diminished. And likewise, three octaves of mode 2 would proceed as minor - minor - minor - minor - minor - minor. This is so conceptually simple, and physically simple, that it makes long diminished scale runs actually quite easy to play, and yet it is not usually taught this way.</p>
 <h3>The wholetone scale</h3>
+<p>Since the wholetone scale is a hexatonic scale, two</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Lower tetrachord</th>
+<th>Upper tetrachord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode 1</td>
+<td>Lydian</td>
+<td>Lydian</td>
+</tr>
+</tbody>
+</table>
 <h3>Harmonic minor modes</h3>
 <h3>Harmonic major modes</h3>
 <h3>Pentatonic scale modes</h3>
 <h3>The chromatic scale</h3>
+<p>Because the chromatic scale is a dodecaphonic scale, it takes three tetrachords rather than two to exhaust all the notes in the scale. And, like the wholetone scale, it has a single scalar generator, the interval 1, which means it has only one mode.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Lower tetrachord</th>
+<th>Middle tetrachord</th>
+<th>Upper tetrachord</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode 1</td>
+<td>Chromatic</td>
+<td>Chromatic</td>
+<td>Chromatic</td>
+</tr>
+</tbody>
+</table>
 <h3>The bebop scale</h3>
 
     </div>
