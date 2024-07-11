@@ -10,14 +10,14 @@ tags:
     - tetrachord
     - scales
 permalink: "/scalar-tetrachords/"
-description: "A scalar tetrachord is an ordered four-pitch set with scale-like construction. These tetrachords can be thought of as scale fragments, or, conversely, as the buidling blocks for scales. Developing instant recall of them is extremely useful for playing scales across the length of the fingerboard, and also for arbitrarily shifting from one scale to another, mid-stream."
+description: "A scalar tetrachord is an ordered four-pitch set with scale-like construction. These tetrachords can be thought of as scale fragments, or, conversely, as the building blocks for scales. Developing instant recall of them is extremely useful for playing long scales across the length of the fingerboard, and also for arbitrarily shifting from one scale to another, mid-stream."
 ---
 
-There are a host of skills required for effective improvising on the guitar, let's begin by considering two of them: 1) the ability to play long scale lines, extending from the top of the instrument to the bottom; 2) the ability to arbitrarily change from one scale to another, regardless of where you are in the scale. I have heard Barry Harris emphasize both of these skills, and they have also been key tenets of my studies with Mark Sherman.
+There are a host of skills required for effective improvising on the guitar, let's begin by considering two of them, concerning scales: 1) the ability to play long scale lines, extending if need be from the top of the instrument to the bottom, and vice-versa; 2) the ability to arbitrarily change from one scale to another, regardless of where you are in the scale. I have heard Barry Harris emphasize both of these skills, and they have also been key tenets of my studies with Mark Sherman.
 
-Why, then, are both of these skills so challenging on the guitar in particular?
+Why, then, are both of these skills so difficult to attain on the guitar in particular?
 
-I think that part of the blame lies in the over-emphasis on practicing scales in position. While it is true that scale practice in position leads to good muscle memory and fast execution, it places an obvious limit on range. Position playing also tends to "chunk" a scale into an entire position, making it difficult to change to any arbitrary scale at any point.
+I think that part of the blame lies in the over-emphasis on practicing scales strictly in position. While it is true that scale practice in position leads to good muscle memory and fast execution, it places an obvious limit on range, with a typical position providing at best just over two octaves. Position playing also tends to "chunk" a scale into an entire position, making it difficult to change to any arbitrary scale at any point.
 
 In my own practice, I have come to believe that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for other articles and lessons. Conversely, when I reference scalar tetrachords in other materials, I refer anyone who needs a refresher back to this article.
 
@@ -45,7 +45,7 @@ Lydian tetrachord: i(2-2-2) p(0,2,4,6) symmetry: yes
 
 Chromatic tetrachord: i(1-1-1) p(0,1,2,3) symmetry: yes
 
-Ui(1-1-2) p(0,1,2,4)
+i(1-1-2) p(0,1,2,4)
 
 "Straight, No Chaser" tetrachord: i(2-1-1) p(0,2,3,4) 
 
@@ -73,7 +73,6 @@ Major pentatonic tetrachord i(2-2-3) p(0,2,4,7) symmetry: mirror of minor pentat
 
 Minor pentatonic tetrachord i(3-2-2) p(0,3,5,7) symmetry: mirror of major pentatonic tetrachord
 
-
 ## Constructing scales with the tetrachords
 
 ### Diatonic modes
@@ -93,4 +92,3 @@ Minor pentatonic tetrachord i(3-2-2) p(0,3,5,7) symmetry: mirror of major pentat
 ### The chromatic scale
 
 ### The bebop scale
-
