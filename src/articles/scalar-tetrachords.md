@@ -31,22 +31,22 @@ What makes a tetrachord scale-like? The two key properties of scales are that th
 
 With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show the ordered interval set used to construct the tetrachord, an ordered pitch set of the tetrachord using integer notation, and a name for the tetrachord.
 
-| Name | Interval set | Pitch set | Symmetry |
+| Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Diminished tetrachord | i(1-2-1) | p(0,1,3,4) | self |
-| Phrygian tetrachord | i(1-2-2) |  p(0,1,3,5) |  mirror of major |
-| Minor tetrachord |  i(2-1-2) |  p(0,2,3,5) |  self |
-| Major tetrachord |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
-| Lydian tetrachord |  i(2-2-2) |  p(0,2,4,6) |  self |
+| Diminished | i(1-2-1) | p(0,1,3,4) | self |
+| Phrygian | i(1-2-2) |  p(0,1,3,5) |  mirror of major |
+| Minor |  i(2-1-2) |  p(0,2,3,5) |  self |
+| Major |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
+| Lydian |  i(2-2-2) |  p(0,2,4,6) |  self |
 
 
 Now let's revisit our first constraint about intervals of 1. If we now allow immediate repetitions of interval 1, we add three more tetrachords. This brings our total to eight tetrachords, which is the total number of tetrachords one can construct out of the intervals 1 and 2.
 
 **Constraint 1a:** An interval of 1 is allowed, and also may now be repeated.
 
-| Name | Interval set | Pitch set | Symmetry |
+| Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Chromatic tetrachord | i(1-1-1) | p(0,1,2,3) | self |
+| Chromatic | i(1-1-1) | p(0,1,2,3) | self |
 |   | i(1-1-2) | p(0,1,2,4) | mirror of "Straight, No Chaser" |
 | "Straight, No Chaser" | i(2-1-1) | p(0,2,3,4) |  |
 
@@ -55,7 +55,7 @@ With these three added tetrachords, we can now also construct the chromatic scal
 
 **Constraint 3:** An interval of 3 is allowed, but may only be used once in the tetrachord.
 
-| Name | Interval set | Pitch set | Symmetry |
+| Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
 | Harmonic dominant | i(1-3-1) | p(0,1,4,5) | self |
 |   | i(1-2-3) | p(0,1,3,6) |  |
@@ -63,7 +63,7 @@ With these three added tetrachords, we can now also construct the chromatic scal
 | Lydian minor | i(2-1-3) | p(0,2,3,6) |  |
 |   | i(2-3-1) | p(0,2,5,6) |  |
 |   | i(3-1-2) | p(0,3,4,6) |  |
-| Blues tetrachord | i(3-2-1) | p(0,3,5,6) |  |
+| Blues | i(3-2-1) | p(0,3,5,6) |  |
 | Major pentatonic | i(2-2-3) | p(0,2,4,7) | mirror of minor pentatonic |
 | "I've Got Rhythm" | i(2-3-2) | p(0,2,5,7) | self |
 | Minor pentatonic | i(3-2-2) | p(0,3,5,7) | mirror of major pentatonic |
