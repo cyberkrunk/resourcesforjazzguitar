@@ -57,10 +57,10 @@ With these three added tetrachords, we can now also construct the chromatic scal
 
 | Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Harmonic dominant | i(1-3-1) | p(0,1,4,5) | self |
+| Major 2b | i(1-3-1) | p(0,1,4,5) | self |
 |   | i(1-2-3) | p(0,1,3,6) |  |
 | All-interval | i(1-3-2) | p(0,1,4,6) |  |
-| Lydian minor | i(2-1-3) | p(0,2,3,6) |  |
+| Minor #4 | i(2-1-3) | p(0,2,3,6) |  |
 |   | i(2-3-1) | p(0,2,5,6) |  |
 |   | i(3-1-2) | p(0,3,4,6) |  |
 | Blues | i(3-2-1) | p(0,3,5,6) |  |
@@ -70,31 +70,31 @@ With these three added tetrachords, we can now also construct the chromatic scal
 
 ## Constructing scales with the tetrachords
 
-Until now, we have been thinking of tetrachords as entities in themselves, so now let's look at how the various tetrachords combine to form scales.
+Until now, we have been thinking of tetrachords as entities in themselves, so now let's look at how the various tetrachords combine to form scales and modes.
 
 ### Diatonic modes
 
 | Mode | Lower tetrachord | Upper tetrachord |
 |---|---|---|
-| Major | Major | Major |
-| Dorian | Minor | Minor |
-| Phrygian | Phrygian | Phrygian |
-| Lydian | Lydian | Major |
-| Mixolydian | Major | Minor |
-| Aeolian | Minor | Phrygian |
-| Locrian | Phrygian | Lydian | 
+| 1. Major | Major | Major |
+| 2. Dorian | Minor | Minor |
+| 3. Phrygian | Phrygian | Phrygian |
+| 4. Lydian | Lydian | Major |
+| 5. Mixolydian | Major | Minor |
+| 6. Aeolian | Minor | Phrygian |
+| 7. Locrian | Phrygian | Lydian |
 
 ### Melodic minor modes
 
 | Mode | Lower tetrachord | Upper tetrachord |
 |---|---|---|
-| Melodic minor | Minor | Major |
-| Dorian b2 | Phrygian | Minor |
-| Lydian #5 | Lydian | Minor |
-| Lydian dominant | Lydian | Major |
-| Mixolydian b6 | Major | Minor |
-| Locrian #2 | Minor | Phrygian |
-| Altered scale | Diminished | Lydian | 
+| 1. Melodic minor | Minor | Major |
+| 2. Dorian b2 | Phrygian | Minor |
+| 3. Lydian #5 | Lydian | Diminished |
+| 4. Lydian dominant | Lydian | Minor |
+| 5. Mixolydian b6 | Major | Phrygian |
+| 6. Locrian #2 | Minor | Lydian |
+| 7. Altered scale | Diminished | Lydian |
 
 ### The diminished scale
 
@@ -117,7 +117,27 @@ Since the wholetone scale is a hexatonic scale, two
 
 ### Harmonic minor modes
 
+| Mode | Lower tetrachord | Upper tetrachord |
+|---|---|---|
+| 1. Harmonic minor | Minor | Major b2 |
+| 2. | Phrygian | Lydian #2 |
+| 3. | Major | Diminished |
+| 4. Dorian #4 | Minor #4 | Minor |
+| 5. Phrygian dominant | Major b2 | Phrygian |
+| 6. | Lydian #2 | Phrygian |
+| 7. | Diminished | Minor #4 |
+
 ### Harmonic major modes
+
+| Mode | Lower tetrachord | Upper tetrachord |
+|---|---|---|
+| 1. Harmonic major | Major | Major b2 |
+| 2. Dorian b5 | Minor | Lydian #2 |
+| 3. Phrygian b4 | Diminished | Phrygian |
+| 4. Melodic minor #4 | Minor #2 | Major |
+| 5. Mixolydian b2 | Major b2 | Minor |
+| 6. | Lydian #2 | Diminished |
+| 7. | Phrygian | Minor #4 |
 
 ### Pentatonic scale modes
 
