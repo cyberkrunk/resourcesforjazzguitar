@@ -124,7 +124,7 @@ Since the wholetone scale is a hexatonic scale, two
 | 3. | Major | Diminished |
 | 4. Dorian #4 | Minor #4 | Minor |
 | 5. Phrygian dominant | Major b2 | Phrygian |
-| 6. | Lydian #2 | Phrygian |
+| 6. | Lydian #2 | Major |
 | 7. | Diminished | Minor #4 |
 
 ### Harmonic major modes
@@ -134,7 +134,7 @@ Since the wholetone scale is a hexatonic scale, two
 | 1. Harmonic major | Major | Major b2 |
 | 2. Dorian b5 | Minor | Lydian #2 |
 | 3. Phrygian b4 | Diminished | Phrygian |
-| 4. Melodic minor #4 | Minor #2 | Major |
+| 4. Melodic minor #4 | Minor #4 | Major |
 | 5. Mixolydian b2 | Major b2 | Minor |
 | 6. | Lydian #2 | Diminished |
 | 7. | Phrygian | Minor #4 |
