@@ -84,6 +84,8 @@ Until now, we have been thinking of tetrachords as entities in themselves, so no
 | 6. Aeolian | Minor | Phrygian |
 | 7. Locrian | Phrygian | Lydian |
 
+<figure><img src="diatonic-modes.png" alt="Diatonic modes"><figcaption></figcaption>Ex. 1</figure>
+
 ### Melodic minor modes
 
 | Mode | Lower tetrachord | Upper tetrachord |
@@ -95,6 +97,8 @@ Until now, we have been thinking of tetrachords as entities in themselves, so no
 | 5. Mixolydian b6 | Major | Phrygian |
 | 6. Locrian #2 | Minor | Lydian |
 | 7. Altered scale | Diminished | Lydian |
+
+<figure><img src="melodic-minor-modes.png" alt="Melodic minor modes"><figcaption></figcaption>Ex. 2</figure>
 
 ### The diminished scale
 
@@ -127,6 +131,8 @@ Since the wholetone scale is a hexatonic scale, two
 | 6. | Lydian #2 | Major |
 | 7. | Diminished | Minor #4 |
 
+<figure><img src="harmonic-minor-modes.png" alt="Harmonic minor modes"><figcaption></figcaption>Ex. 3</figure>
+
 ### Harmonic major modes
 
 | Mode | Lower tetrachord | Upper tetrachord |
@@ -138,6 +144,8 @@ Since the wholetone scale is a hexatonic scale, two
 | 5. Mixolydian b2 | Major b2 | Minor |
 | 6. | Lydian #2 | Diminished |
 | 7. | Phrygian | Minor #4 |
+
+<figure><img src="harmonic-major-modes.png" alt="Harmonic major modes"><figcaption></figcaption>Ex. 4</figure>
 
 ### Pentatonic scale modes
 
