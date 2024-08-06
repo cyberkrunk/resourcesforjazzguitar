@@ -33,11 +33,11 @@ With only these two constraints in play, we can generate a group of five tetrach
 
 | Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Diminished | i(1-2-1) | p(0,1,3,4) | self |
-| Phrygian | i(1-2-2) |  p(0,1,3,5) |  mirror of major |
-| Minor |  i(2-1-2) |  p(0,2,3,5) |  self |
-| Major |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
-| Lydian |  i(2-2-2) |  p(0,2,4,6) |  self |
+| diminished | i(1-2-1) | p(0,1,3,4) | self |
+| phrygian | i(1-2-2) |  p(0,1,3,5) |  mirror of major |
+| minor |  i(2-1-2) |  p(0,2,3,5) |  self |
+| major |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
+| lydian |  i(2-2-2) |  p(0,2,4,6) |  self |
 
 
 Now let's revisit our first constraint about intervals of 1. If we now allow immediate repetitions of interval 1, we add three more tetrachords. This brings our total to eight tetrachords, which is the total number of tetrachords one can construct out of the intervals 1 and 2.
@@ -46,7 +46,7 @@ Now let's revisit our first constraint about intervals of 1. If we now allow imm
 
 | Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Chromatic | i(1-1-1) | p(0,1,2,3) | self |
+| chromatic | i(1-1-1) | p(0,1,2,3) | self |
 |   | i(1-1-2) | p(0,1,2,4) | mirror of "Straight, No Chaser" |
 | "Straight, No Chaser" | i(2-1-1) | p(0,2,3,4) |  |
 
@@ -57,16 +57,16 @@ With these three added tetrachords, we can now also construct the chromatic scal
 
 | Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
-| Major 2b | i(1-3-1) | p(0,1,4,5) | self |
+| major b2 | i(1-3-1) | p(0,1,4,5) | self |
 |   | i(1-2-3) | p(0,1,3,6) |  |
-| All-interval | i(1-3-2) | p(0,1,4,6) |  |
-| Minor #4 | i(2-1-3) | p(0,2,3,6) |  |
+| all-interval | i(1-3-2) | p(0,1,4,6) |  |
+| minor #4 | i(2-1-3) | p(0,2,3,6) |  |
 |   | i(2-3-1) | p(0,2,5,6) |  |
 |   | i(3-1-2) | p(0,3,4,6) |  |
-| Blues | i(3-2-1) | p(0,3,5,6) |  |
-| Major pentatonic | i(2-2-3) | p(0,2,4,7) | mirror of minor pentatonic |
+| blues | i(3-2-1) | p(0,3,5,6) |  |
+| major pentatonic | i(2-2-3) | p(0,2,4,7) | mirror of minor pentatonic |
 | "I've Got Rhythm" | i(2-3-2) | p(0,2,5,7) | self |
-| Minor pentatonic | i(3-2-2) | p(0,3,5,7) | mirror of major pentatonic |
+| minor pentatonic | i(3-2-2) | p(0,3,5,7) | mirror of major pentatonic |
 
 ## Constructing scales with the tetrachords
 
@@ -74,29 +74,29 @@ Until now, we have been thinking of tetrachords as entities in themselves, so no
 
 ### Diatonic modes
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| 1. Major | Major | Major |
-| 2. Dorian | Minor | Minor |
-| 3. Phrygian | Phrygian | Phrygian |
-| 4. Lydian | Lydian | Major |
-| 5. Mixolydian | Major | Minor |
-| 6. Aeolian | Minor | Phrygian |
-| 7. Locrian | Phrygian | Lydian |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| 1. major | major | major | mirror of phrygian |
+| 2. dorian | minor | minor | self |
+| 3. phrygian | phrygian | phrygian | mirror of major |
+| 4. lydian | lydian | major | mirror of locrian |
+| 5. mixolydian | major | minor | mirror of aeloian |
+| 6. aeolian | minor | phrygian | mirror of mixolydian |
+| 7. locrian | phrygian | lydian | mirror of lydian |
 
 <figure><img src="diatonic-modes.png" alt="Diatonic modes"><figcaption></figcaption>Ex. 1</figure>
 
 ### Melodic minor modes
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| 1. Melodic minor | Minor | Major |
-| 2. Dorian b2 | Phrygian | Minor |
-| 3. Lydian #5 | Lydian | Diminished |
-| 4. Lydian dominant | Lydian | Minor |
-| 5. Mixolydian b6 | Major | Phrygian |
-| 6. Locrian #2 | Minor | Lydian |
-| 7. Altered scale | Diminished | Lydian |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| 1. melodic minor | minor | major | mirror of dorian b2 |
+| 2. dorian b2 | phrygian | minor | mirror of melodic minor |
+| 3. lydian #5 | lydian | diminished | mirror of altered |
+| 4. lydian dominant | lydian | minor | mirror of locrian #2 |
+| 5. mixolydian b6 | major | phrygian | self |
+| 6. locrian #2 | minor | lydian | mirror of lydian dominant |
+| 7. altered | diminished | lydian | mirror of lydian #5 |
 
 <figure><img src="melodic-minor-modes.png" alt="Melodic minor modes"><figcaption></figcaption>Ex. 2</figure>
 
@@ -104,10 +104,10 @@ Until now, we have been thinking of tetrachords as entities in themselves, so no
 
 The diminished scale has only two modes. Some people in jazz pedagogy like to call the two modes the "half-whole" and the "whole-half," and some go even further and call these two separate scales to be used on different chords, e.g., use the "half-whole" on a dominant 7th chord, the the "whole-half" on a diminished 7th chord. As you may have guessed, I do not care for that way of thinking, because it obscures the relationship of the dominant and diminished 7th chords, and also makes the diminished scale seem far less interesting than it is--which is a topic that I will explore in depth elsewhere on this site.
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| Mode 1 | Diminished | Diminished |
-| Mode 2 | Minor | Minor |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| mode 1 | diminished | diminished | self |
+| mode 2 | minor | minor | self |
 
 Because the diminished scale is an octatonic scale, two tetrachords align perfectly with one octave of the scale. That means that the next octave will repeat exactly the previous two tetrachords. But, as we see, each mode consists of two repetitions of the same tetrachord, so the next octave will repeat the same tetrachord, and so on until you reach the top of your instrument. So, for example, three octaves of mode 1 would proceed as diminished - diminished - diminished - diminished - diminished - diminished. And likewise, three octaves of mode 2 would proceed as minor - minor - minor - minor - minor - minor. This is so conceptually simple, and physically simple, that it makes long diminished scale runs actually quite easy to play, and yet it is not usually taught this way.  
 
@@ -115,35 +115,35 @@ Because the diminished scale is an octatonic scale, two tetrachords align perfec
 
 Since the wholetone scale is a hexatonic scale, two 
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| Mode 1 | Lydian | Lydian |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| mode 1 | lydian | lydian | self |
 
 ### Harmonic minor modes
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| 1. Harmonic minor | Minor | Major b2 |
-| 2. | Phrygian | Lydian #2 |
-| 3. | Major | Diminished |
-| 4. Dorian #4 | Minor #4 | Minor |
-| 5. Phrygian dominant | Major b2 | Phrygian |
-| 6. | Lydian #2 | Major |
-| 7. | Diminished | Minor #4 |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| 1. harmonic minor | minor | major b2 | mode 5 |
+| 2. | phrygian | lydian #2 | mode 4 |
+| 3. | major | diminished | mode 3 |
+| 4. dorian #4 | minor #4 | minor | mode 2 |
+| 5. phrygian dominant | major b2 | phrygian | mode 1 |
+| 6. | lydian #2 | major | mode 7 |
+| 7. | diminished | minor #4 | mode 6 |
 
 <figure><img src="harmonic-minor-modes.png" alt="Harmonic minor modes"><figcaption></figcaption>Ex. 3</figure>
 
 ### Harmonic major modes
 
-| Mode | Lower tetrachord | Upper tetrachord |
-|---|---|---|
-| 1. Harmonic major | Major | Major b2 |
-| 2. Dorian b5 | Minor | Lydian #2 |
-| 3. Phrygian b4 | Diminished | Phrygian |
-| 4. Melodic minor #4 | Minor #4 | Major |
-| 5. Mixolydian b2 | Major b2 | Minor |
-| 6. | Lydian #2 | Diminished |
-| 7. | Phrygian | Minor #4 |
+| Mode | Lower tetrachord | Upper tetrachord | Symmetry |
+|---|---|---|---|
+| 1. harmonic major | major | major b2 | mode 5 |
+| 2. dorian b5 | minor | lydian #2 | mode 4 |
+| 3. phrygian b4 | diminished | phrygian | mode 3 |
+| 4. melodic minor #4 | minor #4 | major | mode 2 |
+| 5. mixolydian b2 | major b2 | minor | mode 1 |
+| 6. | lydian #2 | diminished | mode 7 |
+| 7. | phrygian | minor #4 | mode 6 |
 
 <figure><img src="harmonic-major-modes.png" alt="Harmonic major modes"><figcaption></figcaption>Ex. 4</figure>
 
@@ -153,8 +153,8 @@ Since the wholetone scale is a hexatonic scale, two
 
 Because the chromatic scale is a dodecaphonic scale, it takes three tetrachords rather than two to exhaust all the notes in the scale. And, like the wholetone scale, it has a single scalar generator, the interval 1, which means it has only one mode. 
 
-| Mode | Lower tetrachord | Middle tetrachord | Upper tetrachord |
-|---|---|---|---|
-| Mode 1 | Chromatic | Chromatic | Chromatic |
+| Mode | Lower tetrachord | Middle tetrachord | Upper tetrachord | Symmetry
+|---|---|---|---|---|
+| mode 1 | chromatic | chromatic | chromatic | self |
 
 ### The bebop scale
