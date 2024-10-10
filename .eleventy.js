@@ -1,7 +1,20 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("./src/style.css");
+
+	const md = markdownIt({
+		html: true,
+		linkify: true,
+	  }).use(require("markdown-it-footnote"));
+	
+	eleventyConfig.setLibrary("md", md);
+	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
+		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+			return false;
+		}
+	});
+	eleventyConfig.addPassthroughCopy("./src/style.css");
 	eleventyConfig.addPassthroughCopy("./src/assets");
 	eleventyConfig.addPassthroughCopy("./src/rfjg-logo-48.svg");
 	eleventyConfig.addPassthroughCopy("./src/favicon.png");

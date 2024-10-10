@@ -213,6 +213,9 @@ footer a:link{
 footer a:visited{
     color: #3345cc;
 }
+.footnote-item p{
+    display: contents;
+}
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;

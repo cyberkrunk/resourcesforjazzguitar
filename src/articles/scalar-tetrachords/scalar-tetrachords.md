@@ -9,6 +9,7 @@ tags:
     - post
     - tetrachord
     - scales
+draft: "true"
 permalink: "/scalar-tetrachords/"
 description: "A scalar tetrachord is an ordered four-pitch set with scale-like construction. These tetrachords can be thought of as scale fragments, or, conversely, as the building blocks for scales. Developing instant recall of them is extremely useful for playing long scales across the length of the fingerboard, and also for arbitrarily shifting from one scale to another, mid-stream."
 ---
