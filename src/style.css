@@ -8,7 +8,7 @@ body{
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Garamond, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     font-size: 20px;
     display: flex;
     flex-direction: column;
