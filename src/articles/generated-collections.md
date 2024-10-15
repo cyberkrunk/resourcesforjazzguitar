@@ -12,7 +12,6 @@ tags:
     - diatonic
     - bebop scale
     - "pc set theory"
-draft: "false"
 permalink: "/generated-collections/"
 description: "A generated collection is formed by repeatedly adding a single interval, termed the generator. These collections include some of the most important collections used in jazz and tonal music generally."
 ---
