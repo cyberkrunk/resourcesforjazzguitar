@@ -1,5 +1,5 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+const { feedPlugin } = require ("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
@@ -28,6 +28,20 @@ module.exports = function (eleventyConfig) {
 				order: 4
 			}
 		},
+		collection: {
+			name: "post",
+			limit: 10,
+		},
+		metadata: {
+			language: "en",
+			title: "Resources For Jazz Guitar",
+			subtitle: "Practice materials and serious music theory for Jazz Guitar.",
+			base: "https://resourcesforjazzguitar.com/",
+			author: {
+				name: "Chester Jankowski"
+			}
+		}
+	});
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
 		extensions: "html",
