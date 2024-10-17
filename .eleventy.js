@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
 		metadata: {
 			language: "en",
 			title: "Resources For Jazz Guitar",
-			subtitle: "Practice materials and serious music theory for Jazz Guitar.",
+			subtitle: "Music theory and practice materials for Jazz Guitar.",
 			base: "https://resourcesforjazzguitar.com/",
 			author: {
 				name: "Chester Jankowski"
