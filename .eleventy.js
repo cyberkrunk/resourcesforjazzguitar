@@ -1,4 +1,5 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
@@ -18,6 +19,15 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/assets");
 	eleventyConfig.addPassthroughCopy("./src/rfjg-logo-48.svg");
 	eleventyConfig.addPassthroughCopy("./src/favicon.png");
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom", // or "rss", "json"
+		outputPath: "/feed/feed.xml",
+		templateData: {
+			eleventyNavigation: {
+				key: "Feed",
+				order: 4
+			}
+		},
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
 		extensions: "html",
