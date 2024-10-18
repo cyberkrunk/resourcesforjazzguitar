@@ -4,11 +4,28 @@
   <subtitle>Music theory and practice materials for Jazz Guitar.</subtitle>
   <link href="https://resourcesforjazzguitar.com/feed/feed.xml" rel="self" />
   <link href="https://resourcesforjazzguitar.com/" />
-  <updated>2024-10-15T00:00:00Z</updated>
+  <updated>2024-10-18T00:00:00Z</updated>
   <id>https://resourcesforjazzguitar.com/</id>
   <author>
     <name>Chester Jankowski</name>
   </author>
+  <entry>
+    <title>Three Octave Bebop Scale Runs</title>
+    <link href="https://resourcesforjazzguitar.com/three-octave-bebop/" />
+    <updated>2024-10-18T00:00:00Z</updated>
+    <id>https://resourcesforjazzguitar.com/three-octave-bebop/</id>
+    <content type="html">&lt;p&gt;In my forthcoming article on scalar tetrachords, I go into some detail on the theory and construction of tetrachords. In this very brief article, I give one practical example of how to leverage tetrachords to construct a very useful fingering for three-octave bebop scale runs.&lt;/p&gt;
+&lt;p&gt;Please take a look at Example 1. As you can see, a root position descending bebop scale uses a chromatic tetrachord, followed by a minor tetrachord. Since the bebop scale is an 8-note scale, two tetrachords align perfectly with one octave of the scale; the next octave will also be a chromatic tetrachord, followed by a minor tetrachord, and so forth. (Or, in other words, there is no &amp;quot;procession of the tetrachords&amp;quot; as I explain in my article.)&lt;/p&gt;
+&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/ZTGg1uHrNV-2220.webp 2220w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/ZTGg1uHrNV-2220.jpeg&quot; alt=&quot;3 octaves of the bebop scale, with tetrachords labeled.&quot; width=&quot;2220&quot; height=&quot;379&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;&lt;/figcaption&gt;Ex. 1&lt;/figure&gt;
+&lt;p&gt;Take note of the fingering pattern. We are playing each tetrachord on one string, or, what sometimes is termed a 4-notes-per-string pattern. For the descending minor tetrachord, I am indicating a slide on the first finger; these can also be played with four fingers, especially when in higher positions.&lt;/p&gt;
+&lt;p&gt;In the practice materials, I am repeating each scale up a semitone, until I reach the top of the instrument, which in the case of my ES-175, is a high C. In the practice materials, I have included the descending scales, which are the most characteristic for jazz, but the ascending scales should also be practiced. In that case, for the ascending minor tetrachord, you can use a shift on the fourth finger.&lt;/p&gt;
+&lt;p&gt;It is also a good idea to practice these runs with other rhythmic vales. Triplets are especially important, because the tetrachords no longer line up with the beat, making the exercise more difficult, see Example 2.&lt;/p&gt;
+&lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/yi9yLcYi1N-2204.webp 2204w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/yi9yLcYi1N-2204.jpeg&quot; alt=&quot;3 octaves of the bebop scale in triplets.&quot; width=&quot;2204&quot; height=&quot;370&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;&lt;/figcaption&gt;Ex. 2&lt;/figure&gt;
+&lt;h2&gt;Practice materials&lt;/h2&gt;
+&lt;p&gt;A PDF of the descending scales is included below. Happy practicing!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://resourcesforjazzguitar.com/assets/RFJG-3-octave-bebop.pdf&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/Ttcp5E_CoQ-612.webp 612w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;img-small&quot; alt=&quot;PDF tumbnail&quot; src=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/Ttcp5E_CoQ-612.jpeg&quot; max-width=&quot;25%&quot; width=&quot;612&quot; height=&quot;792&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Generated Collections</title>
     <link href="https://resourcesforjazzguitar.com/generated-collections/" />
