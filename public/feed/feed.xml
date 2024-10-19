@@ -15,7 +15,7 @@
     <updated>2024-10-18T00:00:00Z</updated>
     <id>https://resourcesforjazzguitar.com/three-octave-bebop/</id>
     <content type="html">&lt;p&gt;In my forthcoming article on scalar tetrachords, I go into some detail on the theory and construction of tetrachords. In this very brief article, I give one practical example of how to leverage tetrachords to construct a very useful fingering for three-octave bebop scale runs.&lt;/p&gt;
-&lt;p&gt;Please take a look at Example 1. As you can see, a root position descending bebop scale uses a chromatic tetrachord, followed by a minor tetrachord. Since the bebop scale is an 8-note scale, two tetrachords align perfectly with one octave of the scale; the next octave will also be a chromatic tetrachord, followed by a minor tetrachord, and so forth. (Or, in other words, there is no &amp;quot;procession of the tetrachords&amp;quot; as I explain in my article.)&lt;/p&gt;
+&lt;p&gt;Please take a look at Example 1. As you can see, a root position descending bebop scale uses a chromatic tetrachord, followed by a minor tetrachord. Since the bebop scale&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; is an 8-note&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; scale, two tetrachords align perfectly with one octave of the scale; the next octave will also be a chromatic tetrachord, followed by a minor tetrachord, and so forth. (Or, in other words, there is no &amp;quot;procession of the tetrachords&amp;quot; as I explain in my article.)&lt;/p&gt;
 &lt;figure&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/ZTGg1uHrNV-2220.webp 2220w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/ZTGg1uHrNV-2220.jpeg&quot; alt=&quot;3 octaves of the bebop scale, with tetrachords labeled.&quot; width=&quot;2220&quot; height=&quot;379&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;&lt;/figcaption&gt;Ex. 1&lt;/figure&gt;
 &lt;p&gt;Take note of the fingering pattern. We are playing each tetrachord on one string, or, what sometimes is termed a 4-notes-per-string pattern. For the descending minor tetrachord, I am indicating a slide on the first finger; these can also be played with four fingers, especially when in higher positions.&lt;/p&gt;
 &lt;p&gt;In the practice materials, I am repeating each scale up a semitone, until I reach the top of the instrument, which in the case of my ES-175, is a high C. In the practice materials, I have included the descending scales, which are the most characteristic for jazz, but the ascending scales should also be practiced. In that case, for the ascending minor tetrachord, you can use a shift on the fourth finger.&lt;/p&gt;
@@ -24,6 +24,16 @@
 &lt;h2&gt;Practice materials&lt;/h2&gt;
 &lt;p&gt;A PDF of the descending scales is included below. Happy practicing!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://resourcesforjazzguitar.com/assets/RFJG-3-octave-bebop.pdf&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/Ttcp5E_CoQ-612.webp 612w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; class=&quot;img-small&quot; alt=&quot;PDF tumbnail&quot; src=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/Ttcp5E_CoQ-612.jpeg&quot; max-width=&quot;25%&quot; width=&quot;612&quot; height=&quot;792&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Notes&lt;/em&gt;&lt;/p&gt;
+&lt;hr class=&quot;footnotes-sep&quot;&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;While it&#39;s true that Barry Harris disliked the term bebop scale, it is used commonly enough that it&#39;s worth keeping, especially for this usage with a single added note. I also note in my article on &lt;a href=&quot;https://resourcesforjazzguitar.com/generated-collections&quot;&gt;generated collections&lt;/a&gt; that the bebop scale is a superset of the diatonic collection, using the same generator. &lt;a href=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;We could say that it is an octatonic scale but that term is strongly connected to the diminished scale. &lt;a href=&quot;https://resourcesforjazzguitar.com/three-octave-bebop/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </content>
   </entry>
   <entry>

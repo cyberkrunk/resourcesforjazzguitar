@@ -17,7 +17,7 @@ description: "This brief article demonstrates how to leverage scalar tetrachords
 
 In my forthcoming article on scalar tetrachords, I go into some detail on the theory and construction of tetrachords. In this very brief article, I give one practical example of how to leverage tetrachords to construct a very useful fingering for three-octave bebop scale runs.
 
-Please take a look at Example 1. As you can see, a root position descending bebop scale uses a chromatic tetrachord, followed by a minor tetrachord. Since the bebop scale is an 8-note scale, two tetrachords align perfectly with one octave of the scale; the next octave will also be a chromatic tetrachord, followed by a minor tetrachord, and so forth. (Or, in other words, there is no "procession of the tetrachords" as I explain in my article.) 
+Please take a look at Example 1. As you can see, a root position descending bebop scale uses a chromatic tetrachord, followed by a minor tetrachord. Since the bebop scale[^1] is an 8-note[^2] scale, two tetrachords align perfectly with one octave of the scale; the next octave will also be a chromatic tetrachord, followed by a minor tetrachord, and so forth. (Or, in other words, there is no "procession of the tetrachords" as I explain in my article.) 
 
 <figure><img src="bebop-tetrachords.png" alt="3 octaves of the bebop scale, with tetrachords labeled."><figcaption></figcaption>Ex. 1</figure>
 
@@ -34,3 +34,8 @@ It is also a good idea to practice these runs with other rhythmic vales. Triplet
 A PDF of the descending scales is included below. Happy practicing!
 
 <a href="/assets/RFJG-3-octave-bebop.pdf"><img class="img-small" alt="PDF tumbnail" src="RFJG-3-octave-bebop.png" max-width="25%"></a>
+
+*Notes*
+
+[^1]:While it's true that Barry Harris disliked the term bebop scale, it is used commonly enough that it's worth keeping, especially for this usage with a single added note. I also note in my article on [generated collections](/generated-collections) that the bebop scale is a superset of the diatonic collection, using the same generator.
+[^2]:We could say that it is an octatonic scale but that term is strongly connected to the diminished scale.
