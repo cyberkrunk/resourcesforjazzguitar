@@ -14,23 +14,23 @@ permalink: "/scalar-tetrachords/"
 description: "A scalar tetrachord is an ordered four-pitch set with scale-like construction. These tetrachords can be thought of as scale fragments, or, conversely, as the building blocks for scales. Developing instant recall of them is extremely useful for playing long scales across the length of the fingerboard, and also for arbitrarily shifting from one scale to another, mid-stream."
 ---
 
-There are a host of skills required for effective improvising on the guitar, let's begin by considering two of them, concerning scales: 1) the ability to play long scale lines, extending if need be from the top of the instrument to the bottom, and vice-versa; 2) the ability to arbitrarily change from one scale to another, regardless of where you are in the scale. I have heard Barry Harris emphasize both of these skills, and they have also been key tenets of my studies with Mark Sherman.
+There are a host of skills required for effective improvising on the guitar. Ultimately, improvising music is not entirely a reductive process, and yet this site is premised on the notion that it is helpful to isolate and develop reductive skills. In this instance, I will focus on scales, and in particular, two important abilities for guitarists to develop: 1) the ability to play long scale lines, extending if need be from the top of the instrument to the bottom, and vice-versa; 2) the ability to arbitrarily transition from one scale to another, regardless of position within the scale, and with good voice-leading. From a pedagogical perspective, I have heard both of these skills emphasized in the teachings of Barry Harris, and they are also a key part of my studies with Mark Sherman.
 
-Why, then, are both of these skills so difficult to attain on the guitar in particular?
+As I began my own practice focused on these two areas, I found myself wondering why both of these skills are so difficult to develop on the guitar in particular, as opposed to, for example on the piano?
 
-I think that part of the blame lies in the over-emphasis on practicing scales strictly in position. While it is true that scale practice in position leads to good muscle memory and fast execution, it places an obvious limit on range, with a typical position providing at best just over two octaves. Position playing also tends to "chunk" a scale into an entire position, making it difficult to change to any arbitrary scale at any point.
+I think that part of the reason lies in the fact that we guitarists tend to have an over-emphasis on practicing scales strictly in position. While it is true that scale practice in a single position leads to good muscle memory and fast execution, it places an obvious limit on range, with a typical position providing at best just over two octaves. Position playing also tends to "chunk" a scale into the entire position, making it difficult to change to any arbitrary scale at any point within the scale.
 
-In my own practice, I have come to believe that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for other articles and lessons. Conversely, when I reference scalar tetrachords in other materials, I refer anyone who needs a refresher back to this article.
+In my own practice, I have come to understand that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for further articles and lessons. In other words, this article is more focused on the theory rather than the practice of this area.
 
 ## Constructing scalar tetrachords: intervallic constraints
 
-What makes a tetrachord scale-like? The two key properties of scales are that they are constructed of "smaller" intervals, and they continue in one direction. Let's dive in and start constructing tetrachords by listing some constraints on which "smaller" intervals may be used. Let's define the smaller intervals as being intervals of 1, 2, or 3 semitones. But for our first group of tetrachords, we will just consider intervals of 1 or 2 semitones.
+What makes a tetrachord "scale-like" or scalar? The two key properties of scales are that they are constructed of small intervals, and they continue in one direction. Let's dive in and start constructing tetrachords by listing some constraints on which small intervals may be used. Let's define the small intervals as being intervals of 1, 2, or 3 semitones. But to begin with, let's look at tetrachords formed by intervals of 1 or 2 semitones.
 
-**Constraint 1:** An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; the interval subset i(1-1) is not allowed.
+**Constraint 1:** An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; put another way, the interval subset i(1-1) is not allowed.
 
 **Constraint 2:** An interval of 2 is allowed, and may also be repeated.
 
-With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show the ordered interval set used to construct the tetrachord, an ordered pitch set of the tetrachord using integer notation, and a name for the tetrachord.
+With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show 1) a proposed name for the tetrachord, 2) the ordered interval set used to construct the tetrachord, 3) an ordered pitch set of the tetrachord using integer notation, 4) a comment on the symmetrical properties of the tetrachord.
 
 | Tetrachord name | Interval set | Pitch set | Symmetry |
 |---|---|---|---|
@@ -39,8 +39,6 @@ With only these two constraints in play, we can generate a group of five tetrach
 | minor |  i(2-1-2) |  p(0,2,3,5) |  self |
 | major |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
 | lydian |  i(2-2-2) |  p(0,2,4,6) |  self |
-
-<figure><img src="tetrachords-number-line.png" alt="Tetrachords on number lines"><figcaption></figcaption>Figure 1 tetrachords on number lines</figure>
 
 Now let's revisit our first constraint about intervals of 1. If we now allow immediate repetitions of interval 1, we add three more tetrachords. This brings our total to eight tetrachords, which is the total number of tetrachords one can construct out of the intervals 1 and 2.
 
@@ -117,7 +115,7 @@ Because the diminished scale is an octatonic scale, two tetrachords align perfec
 
 ### The wholetone scale
 
-Since the wholetone scale is a hexatonic scale, two 
+Since the wholetone scale is a hexatonic scale, two tetrachords will "overshoot" the octave.
 
 | Mode | Lower tetrachord | Upper tetrachord | Symmetry |
 |---|---|---|---|

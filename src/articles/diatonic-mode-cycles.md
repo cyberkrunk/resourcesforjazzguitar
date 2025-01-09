@@ -1,23 +1,55 @@
 ---
 layout: article.njk
-title: "Understanding Key Signatures"
+title: "Diatonic Mode Cycles"
 author: Chester Jankowski
-date: "2024-10-10"
+date: "2024-10-20"
 categories:
     - "music theory"
 tags:
     - post
     - diatonic
-permalink: "/understanding-key-signatures/"
-description: "Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught—through rote memorization—obscures some important aspects of diatonic collections, which this article will seek to illuminate."
+    - modes
+draft: "true"
+permalink: "/diatonic-mode-cycles/"
+description: "Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught obscures some important aspects of diatonic collections, which this article will seek to illuminate."
 ---
 
-I suspect that when most people first learn about key signatures, they learn them by rote memorization. When first learning to read music on an instrument, a student will commonly begin with pieces in C major, with no sharps or flats in the key signature. Next, the student might begin playing pieces in G major, or F major, with one sharp and one flat, respectively. Gradually, the student will play pieces with more and more sharps or flats, memorizing which key signatures go with which keys.
+In my article on [understanding key signatures](/understanding-key-signatures), 
 
-At some point, the student will be introduced to a system usually called “the order of sharps and flats,” or something similar. Probably at this time, the student will also be shown the famous “circle of fifths” diagram. When I was first taught the order of sharps and flats, it was simply taught to me as something that needed to be memorized, along with a handy mnemonic:
+Order of sharps: F-C-G-D-A-E-B<br>
+Order of flats: B-E-A-D-G-C-F
 
-Order of sharps: F-C-G-D-A-E-B. “Father Charles Goes Down And Ends Battle.”<br>
-Order of flats: B-E-A-D-G-C-F. “Battle Ends And Down Goes Charles’ Father.”
+F - Lydian<br>
+C - Ionian<br>
+G - Mixolydian<br>
+D - Dorian<br>
+A - Aeolian<br>
+E - Phrygian<br>
+B - Locrian
+
+B - Locrian<br>
+E - Phrygian<br>
+A - Aeolian<br>
+D - Dorian<br>
+G - Mixolydian<br>
+C - Ionian<br>
+F - Lydian
+
+F-C-G-D-A-E-B - Lydian<br>
+F-C-G-D-A-E-Bb - Ionian<br>
+F-C-G-D-A-Eb-Bb - Mixolydian<br>
+F-C-G-D-Ab-Eb-Bb - Dorian<br>
+F-C-G-Db-Ab-Eb-Bb - Aeolian<br>
+F-C-Gb-Db-Ab-Eb-Bb - Phrygian<br>
+F-Cb-Gb-Db-Ab-Eb-Bb - Locrian
+
+B-E-A-D-G-C-F - Locrian<br>
+B-E-A-D-G-C-F# - Phrygian<br>
+B-E-A-D-G-C#-F# - Aeolian<br>
+B-E-A-D-G#-C#-F# - Dorian<br>
+B-E-A-D#-G#-C#-F# - Mixolydian<br>
+B-E-A#-D#-G#-C#-F# - Ionian<br>
+B-E#-A#-D#-G#-C#-F# - Lydian
 
 One very good thing about that particular mnemonic is that it can be read, and makes sense forward and backward. That illustrates a very important aspect of the order of sharps and flats: each is the retrograde of the other. On the other hand, there is one very bad thing about the mnemonic: it is not necessary, and it obscures the structure behind the two orders. Instead of a mnemonic, I will offer the following definition:
 

@@ -6,7 +6,7 @@ description: "About Resources For Jazz Guitar"
 
 ## About this site
 
-Welcome to Resources For Jazz Guitar! As of today, in October 2024, there is not yet a great deal of material here, but this site will grow to include materials that should be useful for intermediate to advanced jazz guitarists. I have a few major goals for this site.
+Welcome to Resources For Jazz Guitar! As of today, in early 2025, there is not yet a great deal of material here, but this site will grow to include materials that should be useful for intermediate to advanced jazz guitarists. I have a few major goals for this site.
 
 Goal number one is to provide a serious foundation in music theory for all the concepts I explore here. And by this, I mean at a level similar to what you would find in an undergraduate university course, or in a music theory journal. The reason for this is to promote a deep understanding of how the materials we use in jazz improvising are constructed, and how they relate to one another. I use the term understanding, as opposed to the rote memorization I often see recommended in jazz pedagogy.
 
