@@ -30,13 +30,13 @@ The key to the lesson is the arpeggio in example 1. You can think of it as a Dom
 
 As you continue to play the arpeggio, you will notice that the major third on each string creates a gap of three semitones between the 1st and 4th fingers. “How can we fill in that gap? Ah!” Let’s start by filling in the gap with the note in the middle. That note is one whole tone above the 1st finger and one whole tone under the 4th finger. Playing it through, it looks like this.
 
-<figure><figcaption>Ex. 2 Wholetone 3, octaves to the 7th</figcaption><img src="images/02-Wholetone-3-octaves-to-7th.svg" alt="Wholetone 3, octaves to the 7th"></figure>
+<figure><figcaption>Ex. 2 Wholetone, 3 octaves to the 7th</figcaption><img src="images/02-Wholetone-3-octaves-to-7th.svg" alt="Wholetone, 3 octaves to the 7th"></figure>
 
 OK, so now we have a nice fingering for a three octave wholetone scale. With this fingering, it is easy to see the symmetry of the scale–the fingering does not contradict the symmetry.
 
 By adding one note in the middle of the gap, we maintain the symmetry. What if we want to add two notes into the gap? If we add a semitone above the 1st finger, and another semitone below the 4th finger, we end up with the three octave diminished scale in example 3.
 
-<figure><figcaption>Ex. 3 Diminished 3, octaves to 7th</figcaption><img src="images/03-Diminished-3-octaves-to-7th.svg" alt="Diminished 3, octaves to 7th"></figure>
+<figure><figcaption>Ex. 3 Diminished, 3 octaves to 7th</figcaption><img src="images/03-Diminished-3-octaves-to-7th.svg" alt="Diminished, 3 octaves to 7th"></figure>
 
 This is a very important fingering for the diminished scale. Once again, the fingering illuminates the scale’s underlying symmetry, it does not contradict it. And because of the repeated fingering pattern, it should be possible to get this run very fast with some practice.
 
@@ -44,7 +44,7 @@ OK, now we have seen two ways to fill in the gap in our original arpeggio, with 
 
 For our next run, we will follow the pattern ‘add two notes’, then ‘add one note’, and repeat that up the strings. What we end up with is the altered scale in example 4.
 
-<figure><figcaption>Ex. 4 Altered 3, octaves to 7th</figcaption><img src="images/04-Altered-3-octaves-to-7th.svg" alt="Altered 3, octaves to 7th"></figure>
+<figure><figcaption>Ex. 4 Altered, 3 octaves to 7th</figcaption><img src="images/04-Altered-3-octaves-to-7th.svg" alt="Altered, 3 octaves to 7th"></figure>
 
 The altered scale is sometimes called the “diminished, wholetone” scale, and this fingering makes that label very clear. It is literally four notes of diminished followed by three notes of whole tone.
 
@@ -58,7 +58,7 @@ We have already covered a lot of material. So maybe now is a good time to pause 
 
 Where to next? Well, while it’s good to practice mixing 8ths, 16ths and triplets, it’s also a good idea to practice these scales with a constant rhythm. Triplets are always good with three octave scales. Examples 6 and 7 take our altered and lydian dominant scales into a constant triplet rhythm. Note that, while our fingering patterns were perfectly aligned with the meter in the previous examples, and now they’re not. That’s fine. You should obviously also practice these fingerings with other rhythmic patterns too.
 
-<figure><figcaption>Ex. 6 Altered 3, octaves to 7th</figcaption><img src="images/06-Altered-3-octaves-to-7th-triplets.svg" alt="Altered 3, octaves to 7th"></figure>
+<figure><figcaption>Ex. 6 Altered, 3 octaves to 7th</figcaption><img src="images/06-Altered-3-octaves-to-7th-triplets.svg" alt="Altered, 3 octaves to 7th"></figure>
 
 <figure><figcaption>Ex. 7 Lydian dominant, 3 octaves to 7th</figcaption><img src="images/07-Lydian-dominant-3-octaves-to-7th-triplets.svg" alt="Lydian dominant, 3 octaves to 7th"></figure>
 
