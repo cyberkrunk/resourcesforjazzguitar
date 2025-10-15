@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    max-width: 1200px;
+    max-width: 40em;
     min-height: 100vh;
     margin: auto;
     padding-left: 20px;
@@ -124,13 +124,13 @@ img{
 }
 h1{
     color: black;
-    font-size: 42px;
+    /* font-size: 42px; */
     font-weight: normal;
     line-height: 1.2;
 }
 h2{
     color: black;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight: bolder;
     letter-spacing: -1px;
     line-height: 1.4;
@@ -160,7 +160,7 @@ p{
 .article-text{
     padding-top: 1em;
     border-top: 1px solid gray;
-    max-width: 36em;
+    max-width: 40em;
     margin: 1em auto 1em auto;
 }
 .article-text-small{
