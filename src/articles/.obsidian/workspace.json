@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "61b359a7fe5e5f47",
+    "type": "split",
+    "children": [
+      {
+        "id": "63b2250591d0760a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ae1e2b2e870d902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "understanding-diatonic-quartal-harmony.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "understanding-diatonic-quartal-harmony"
+            }
+          },
+          {
+            "id": "c702dd66377e4cf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "understanding-key-signatures.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "understanding-key-signatures"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f050ec43d3a9ae8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0cc553326d1c201",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3fafcca5b6b5aba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1559eb315f6a22e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "50beef2a658ed316",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ce941982c7b86e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccc6fae2a5e9d1ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72bc80d170954d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "diminished-altered-wholetone.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for diminished-altered-wholetone"
+            }
+          },
+          {
+            "id": "2291d70effb906c6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "diminished-altered-wholetone.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from diminished-altered-wholetone"
+            }
+          },
+          {
+            "id": "6589f7d684c89f55",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2426da2d5ac41d73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "diminished-altered-wholetone.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of diminished-altered-wholetone"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5ae1e2b2e870d902",
+  "lastOpenFiles": [
+    "visualizing-diatonic-ic-vector.md",
+    "understanding-key-signatures.md",
+    "understanding-diatonic-quartal-harmony.md",
+    "generated-collections.md",
+    "diminished-altered-wholetone.md",
+    "diatonic-mode-cycles.md"
+  ]
+}
