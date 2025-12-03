@@ -27,8 +27,6 @@ export default async function(eleventyConfig) {
 		.addPassthroughCopy({
             "./src/style.css": "/",
             "./src/assets": "/",
-            "./src/rfjg-logo-48.svg": "/",
-            "./src/favicon.png": "/"
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
