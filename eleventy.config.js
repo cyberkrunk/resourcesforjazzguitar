@@ -26,7 +26,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig
 		.addPassthroughCopy({
             "./src/style.css": "/",
-            "./src/assets": "/",
+            "./src/assets": "/assets/",
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
