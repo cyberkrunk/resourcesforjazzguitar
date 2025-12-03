@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "understanding-diatonic-quartal-harmony.md",
+                "file": "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,7 +35,8 @@
               "title": "understanding-key-signatures"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "5ae1e2b2e870d902",
+  "active": "c702dd66377e4cf0",
   "lastOpenFiles": [
+    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "visualizing-diatonic-ic-vector.md",
     "understanding-key-signatures.md",
     "understanding-diatonic-quartal-harmony.md",
