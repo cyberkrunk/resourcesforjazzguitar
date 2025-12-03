@@ -1,5 +1,5 @@
 ---
-layout: article.njk
+layout: layouts/article.njk
 title: "Understanding Diatonic Quartal Harmony"
 author: Chester Jankowski
 date: "2025-11-15"

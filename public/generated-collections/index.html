@@ -33,7 +33,7 @@
     <main>
         <article>
     <div class="article-hero">
-        <h1>Generated Collections</h1>
+        <h1 id="generated-collections">Generated Collections</h1>
         <div class="byline">
 <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg> <a href="/author/chester-jankowski"> Chester Jankowski </a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></svg> 2024-10-15 <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><a href="/category/music-theory"> music theory</a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
 
@@ -64,7 +64,7 @@
         <p></p>
     </div>
     <div class="article-text">
-        <h2>Generating the collections</h2>
+        <h2 id="generating-the-collections">Generating the collections</h2>
 <p>In this article, we will borrow some concepts from abstract algebra and group theory to explore some aspects of the scales and chords we commonly use in jazz. Please do not be put off by the prospect of math, it will be kept at a very simple level. Looking at the collections in this way illuminates how they are constructed, how they are symmetrical, and it is especially helpful in understanding subset relations.</p>
 <p><strong>Definition: a generated collection is formed by repeatedly adding a single interval, which we term the &quot;generator.&quot;</strong></p>
 <p>Let's begin with a really simple example, and use the generator of 1 semitone. We will start with a single pitch class {0}. In the first iteration, we add an interval of 1, which gives us the set {0,1}. In the second iteration, we add another interval of 1, and now have the set {0,1,2}. If we continue iterating, after eleven steps, we will have the set {0,1,2,3,4,5,6,7,8,9,10,11}, which we can think of as the chromatic scale, or in pc set theory what is often termed the &quot;aggregate&quot;. Since we are doing math in mod 12, we can keep iterating, but we won't add any new pitch classes, the set will just keep cycling through the same integers; this is sometimes termed a &quot;cyclic set&quot;.</p>
@@ -72,93 +72,93 @@
 <p>A generator of 3 semitones gives us the set {0,3,6,9}, which is a diminished 7th chord.</p>
 <p>A generator of 4 semitones gives us the set {0,4,8}, which is an augmented triad.</p>
 <p>The generator of 5 semitones is another special case, so let's look at all the iterations of this one:</p>
-<p>{0}<br>
-{0,5}<br>
-{0,5,10}<br>
-{0,5,10,3}<br>
-{0,5,10,3,8}<br>
-{0,5,10,3,8,1}<br>
-{0,5,10,3,8,1,6}<br>
-{0,5,10,3,8,1,6,11}<br>
-{0,5,10,3,8,1,6,11,4}<br>
-{0,5,10,3,8,1,6,11,4,9}<br>
-{0,5,10,3,8,1,6,11,4,9,2}<br>
+<p>{0}<br><br>
+{0,5}<br><br>
+{0,5,10}<br><br>
+{0,5,10,3}<br><br>
+{0,5,10,3,8}<br><br>
+{0,5,10,3,8,1}<br><br>
+{0,5,10,3,8,1,6}<br><br>
+{0,5,10,3,8,1,6,11}<br><br>
+{0,5,10,3,8,1,6,11,4}<br><br>
+{0,5,10,3,8,1,6,11,4,9}<br><br>
+{0,5,10,3,8,1,6,11,4,9,2}<br><br>
 {0,5,10,3,8,1,6,11,4,9,2,7}<br></p>
 <p>Here are the same sets with the pitch classes arranged in ascending integer order:</p>
-<p>{0}<br>
-{0,5}<br>
-{0,5,10}<br>
-{0,3,5,10}<br>
-{0,3,5,8,10}<br>
-{0,1,3,5,8,10}<br>
-{0,1,3,5,6,8,10}<br>
-{0,1,3,5,6,8,10,11}<br>
-{0,1,3,4,5,6,8,10,11}<br>
-{0,1,3,4,5,6,8,9,10,11}<br>
-{0,1,2,3,4,5,6,8,9,10,11}<br>
+<p>{0}<br><br>
+{0,5}<br><br>
+{0,5,10}<br><br>
+{0,3,5,10}<br><br>
+{0,3,5,8,10}<br><br>
+{0,1,3,5,8,10}<br><br>
+{0,1,3,5,6,8,10}<br><br>
+{0,1,3,5,6,8,10,11}<br><br>
+{0,1,3,4,5,6,8,10,11}<br><br>
+{0,1,3,4,5,6,8,9,10,11}<br><br>
+{0,1,2,3,4,5,6,8,9,10,11}<br><br>
 {0,1,2,3,4,5,6,7,8,9,10,11}<br></p>
 <p>Looking at these sets closely, we see that they are some of the most important sets used in jazz. The set with cardinality 5, {0,3,5,8,10}, is the pentatonic scale. The set with cardinality 6, {0,1,3,5,8,10}, is the hexatonic scale. The set with cardinality 7, {0,1,3,5,6,8,10}, is the diatonic collection. It is also worth noting that this set is the first iteration which contains the interval of a tritone. The set with cardinality 9, {0,1,3,4,5,6,8,10,11}, is the bebop scale. And finally, the set with cardinality 12, {0,1,2,3,4,5,6,7,8,9,10,11}, is the chromatic scale, or aggregate.</p>
 <p>Now let's go on the next generator, an interval of 6 semitones. {0,6}. Well, that does seem a bit anticlimactic, after the fecundity of generator 5, does it not?</p>
 <p>For the generator of 7 semitones, I will once again list all iterations:</p>
-<p>{0}<br>
-{0,7}<br>
-{0,7,2}<br>
-{0,7,2,9}<br>
-{0,7,2,9,4}<br>
-{0,7,2,9,4,11}<br>
-{0,7,2,9,4,11,6}<br>
-{0,7,2,9,4,11,6,1}<br>
-{0,7,2,9,4,11,6,1,8}<br>
-{0,7,2,9,4,11,6,1,8,3}<br>
-{0,7,2,9,4,11,6,1,8,3,10}<br>
+<p>{0}<br><br>
+{0,7}<br><br>
+{0,7,2}<br><br>
+{0,7,2,9}<br><br>
+{0,7,2,9,4}<br><br>
+{0,7,2,9,4,11}<br><br>
+{0,7,2,9,4,11,6}<br><br>
+{0,7,2,9,4,11,6,1}<br><br>
+{0,7,2,9,4,11,6,1,8}<br><br>
+{0,7,2,9,4,11,6,1,8,3}<br><br>
+{0,7,2,9,4,11,6,1,8,3,10}<br><br>
 {0,7,2,9,4,11,6,1,8,3,10,5}<br></p>
 <p>And once again, in ascending pitch class integer order:</p>
-<p>{0}<br>
-{0,7}<br>
-{0,2,7}<br>
-{0,2,7,9}<br>
-{0,2,4,7,9}<br>
-{0,2,4,7,9,11}<br>
-{0,2,4,6,7,9,11}<br>
-{0,1,2,4,6,7,9,11}<br>
-{0,1,2,4,6,7,8,9,11}<br>
-{0,1,2,3,4,6,7,8,9,11}<br>
-{0,1,2,3,4,6,7,8,9,10,11}<br>
+<p>{0}<br><br>
+{0,7}<br><br>
+{0,2,7}<br><br>
+{0,2,7,9}<br><br>
+{0,2,4,7,9}<br><br>
+{0,2,4,7,9,11}<br><br>
+{0,2,4,6,7,9,11}<br><br>
+{0,1,2,4,6,7,9,11}<br><br>
+{0,1,2,4,6,7,8,9,11}<br><br>
+{0,1,2,3,4,6,7,8,9,11}<br><br>
+{0,1,2,3,4,6,7,8,9,10,11}<br><br>
 {0,1,2,3,4,5,6,7,8,9,10,11}<br></p>
 <p>Let's compare the cardinality 7 sets from the 5 and 7 semitone generators:</p>
-<p>{0,5,10,3,8,1,6}<br>
+<p>{0,5,10,3,8,1,6}<br><br>
 {0,7,2,9,4,11,6}<br></p>
 <p>We can see that the two sets are inversionally related. So, for example, instead of using a generator of 7 semitones for the second set, we could use a generator of -5 semitones and get the same result. Starting with {0}, we add an interval of -5, which gives us, mod 12, {0,7}. Adding another interval of -5, we get {0,7,2}, and so forth.</p>
 <p>Since the generator 5 and 7 sets are inversionally related, sets of the same cardinality are equivalent, so the set with cardinality 5 is the pentatonic scale, cardinality 6 is the hexatonic scale, cardinality 7 is the diatonic collection, cardinality 8 is the bebop scale, and cardinality 12 is the chromatic scale, or aggregate.</p>
 <p>Let's now look at the generator of 8 semitones, which gives us the set {0,8,4}. We can see that this is the inversion of the generator of 4 semitones. We can make a generalization that two generators which sum to twelve will generate equivalent, but inversionally-related collections, i.e.: generators 1 and 11, generators 2 and 10, 3 and 9, 4 and 8, 5 and 7. Generator 6 sums to 12 with itself, so it has no inversion partner.</p>
 <p>What other generalizations can we make? Well, perhaps the most important one is that only generators which are coprime with 12 will generate the entire chromatic scale or aggregate. There are only four such generators: 1 and its inversion partner 11, 5 and its inversion partner 7.</p>
 <p>Let's extend that a bit further by looking at the Greatest Common Divisor of each generator and 12. For any generator a, a collection of 12/gcd(a,12) members will be created, and the number of unique collections within the aggregate will be gcd(a,12).</p>
-<p>Generator 1: gcd(1,12)=1 unique collection of 12/1=12 members<br>
-Generator 2: gcd(2,12)=2 unique collection of 12/2=6 members<br>
-Generator 3: gcd(3,12)=3 unique collection of 12/3=4 members<br>
-Generator 4: gcd(4,12)=4 unique collection of 12/3=3 members<br>
-Generator 5: gcd(5,12)=1 unique collection of 12/1=12 members<br>
-Generator 6: gcd(6,12)=6 unique collection of 12/6=2 members<br>
-Generator 7: gcd(7,12)=1 unique collection of 12/1=12 members<br>
-Generator 8: gcd(8,12)=4 unique collection of 12/4=3 members<br>
-Generator 9: gcd(9,12)=3 unique collection of 12/3=4 members<br>
-Generator 10: gcd(10,12)=2 unique collection of 12/2=6 members<br>
+<p>Generator 1: gcd(1,12)=1 unique collection of 12/1=12 members<br><br>
+Generator 2: gcd(2,12)=2 unique collection of 12/2=6 members<br><br>
+Generator 3: gcd(3,12)=3 unique collection of 12/3=4 members<br><br>
+Generator 4: gcd(4,12)=4 unique collection of 12/3=3 members<br><br>
+Generator 5: gcd(5,12)=1 unique collection of 12/1=12 members<br><br>
+Generator 6: gcd(6,12)=6 unique collection of 12/6=2 members<br><br>
+Generator 7: gcd(7,12)=1 unique collection of 12/1=12 members<br><br>
+Generator 8: gcd(8,12)=4 unique collection of 12/4=3 members<br><br>
+Generator 9: gcd(9,12)=3 unique collection of 12/3=4 members<br><br>
+Generator 10: gcd(10,12)=2 unique collection of 12/2=6 members<br><br>
 Generator 11: gcd(11,12)=1 unique collection of 12/1=12 members<br></p>
-<h2>The symmetry of these collections</h2>
+<h2 id="the-symmetry-of-these-collections">The symmetry of these collections</h2>
 <p>In addition to looking at the pitch class sets that result from these generators, it is also helpful to think of them as interval sets. For example, let's look at generator 5, cardinality 5 though 8:</p>
-<p>Cardinality 5, pentatonic: {5-5-5-5-5}<br>
-Cardinality 6, hexatonic: {5-5-5-5-5-5}<br>
-Cardinality 7, diatonic: {5-5-5-5-5-5-5}<br>
+<p>Cardinality 5, pentatonic: {5-5-5-5-5}<br><br>
+Cardinality 6, hexatonic: {5-5-5-5-5-5}<br><br>
+Cardinality 7, diatonic: {5-5-5-5-5-5-5}<br><br>
 Cardinality 8, bebop: {5-5-5-5-5-5-5-5}<br></p>
 <p>One thing that becomes instantly clear is that each of these sets is symmetrical. The pentatonic collection has an axis of symmetry on its 3rd member, the hexatonic collection has an axis of symmetry between its 3rd and 4th members, the diatonic collection has an axis of symmetry on its 4th member (which corresponds to the dorian mode in scale form), and the bebop scale has an axis of symmetry between its 4th and 5th members.</p>
-<h2>Subset relations</h2>
+<h2 id="subset-relations">Subset relations</h2>
 <p>The other aspects which become instantly obvious when looking at these generated collections through their interval sets are their mutual subset and superset relations. Let's look at the interval sets again, this time without labels:</p>
-<p>{5-5-5-5-5}<br>
-{5-5-5-5-5-5}<br>
-{5-5-5-5-5-5-5}<br>
+<p>{5-5-5-5-5}<br><br>
+{5-5-5-5-5-5}<br><br>
+{5-5-5-5-5-5-5}<br><br>
 {5-5-5-5-5-5-5-5}<br></p>
 <p>You can now see very clearly that the pentatonic is a subset of the hexatonic, which is a subset of the diatonic, which is a subset of the bebop scale. It also makes is easy to see that the hexatonic contains two pentatonic sets. To see this, align the first member of the pentatonic with the first member of the hexatonic; that is the first subset. Now align the first member of the pentatonic with the second member of the hexatonic; that is the second subset. Likewise, the diatonic contains three pentatonic sets, and the bebop scale contains four pentatonic sets.</p>
-<h2>Key takeaways</h2>
+<h2 id="key-takeaways">Key takeaways</h2>
 <p>The following sets commonly used in jazz are each generated by repeating a single interval: the chromatic scale, the wholetone scale, the diminished 7th chord, the augmented triad, the pentatonic scale, the hexatonic scale, the diatonic collection, including all modes, the bebop scale.</p>
 <p>Each of the above listed sets is symmetrical.</p>
 <p>The pentatonic is a subset of the hexatonic, which is a subset of the diatonic, which is a subset of the bebop scale.</p>
@@ -167,17 +167,7 @@ Cardinality 8, bebop: {5-5-5-5-5-5-5-5}<br></p>
 </article>
 
     </main>
-    <script>
-        function showSidebar(){
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'flex'
-    }
-function hideSidebar(){
-    const sidebar = document.querySelector('.sidebar')
-    sidebar.style.display = 'none'
-    }
-
-    </script>
+    
     <footer>
         <ul>
 <li><a href="/">Resources For Jazz Guitar</a> • <a href="/feed/feed.xml">RSS</a></li>

@@ -1,5 +1,5 @@
 ---
-layout: article.njk
+layout: layouts/article.njk
 title: "Visualizing the Diatonic Ic Vector"
 author: Chester Jankowski
 date: "2024-05-26"
@@ -8,7 +8,7 @@ categories:
 tags:
     - post
     - diatonic
-    - "pc set theory"
+    - pc set theory
     - "quartal"
     - "ic vector"
 draft: "true"

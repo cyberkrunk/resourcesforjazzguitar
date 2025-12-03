@@ -16,16 +16,16 @@
 </head>
 <body>
     <header>
-        {% include 'header.njk' %}
+        {% include 'layouts/header.njk' %}
     </header>
     <main>
         {{ content | safe }}
     </main>
     <script>
-        {% include 'script.njk' %}
+        {% include 'layouts/script.njk' %}
     </script>
     <footer>
-        {% include 'footer.njk' %}
+        {% include 'layouts/footer.njk' %}
     </footer>    
 </body>
 </html>

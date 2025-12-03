@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: layouts/page.njk
 eleventyNavigation:
     key: Jazz Guitar Bibliography
     parent: Other Resources

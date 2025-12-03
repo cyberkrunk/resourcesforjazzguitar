@@ -1,5 +1,5 @@
 ---
-layout: about.njk
+layout: layouts/about.njk
 title: About Resources For Jazz Guitar
 description: "About Resources For Jazz Guitar"
 ---

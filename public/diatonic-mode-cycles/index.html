@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
-    <title>Understanding Key Signatures</title>
-    <meta name="description" content="Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught—through rote memorization—obscures some important aspects of diatonic collections, which this article will seek to illuminate.">
+    <title>Diatonic Mode Cycles (draft)</title>
+    <meta name="description" content="Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught obscures some important aspects of diatonic collections, which this article will seek to illuminate.">
     <meta name="author" content="Chester Jankowski">
-    <meta property="og:title" content="Understanding Key Signatures">
+    <meta property="og:title" content="Diatonic Mode Cycles (draft)">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://resourcesforjazzguitar.com/understanding-key-signatures/">
+    <meta property="og:url" content="https://resourcesforjazzguitar.com/diatonic-mode-cycles/">
     <meta property="og:image" content="https://resourcesforjazzguitar.com/assets/resources-jazz-guitar-cover-image.png">
     <link rel="shortcut icon" href="/favicon.png">
     <link rel="icon" href="/favicon.png">
@@ -33,25 +33,56 @@
     <main>
         <article>
     <div class="article-hero">
-        <h1 id="understanding-key-signatures">Understanding Key Signatures</h1>
+        <h1 id="diatonic-mode-cycles-draft">Diatonic Mode Cycles (draft)</h1>
         <div class="byline">
-<svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg> <a href="/author/chester-jankowski"> Chester Jankowski </a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></svg> 2024-10-10 <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><a href="/category/music-theory"> music theory</a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+<svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg> <a href="/author/chester-jankowski"> Chester Jankowski </a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0V0z"></path></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"></use></clipPath><path clip-path="url(#b)" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></svg> 2024-10-20 <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><a href="/category/music-theory"> music theory</a> <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
 
     
 
     
-        <a href="/tag/diatonic">diatonic</a>
+        <a href="/tag/diatonic">diatonic</a>, 
+    
+
+    
+        <a href="/tag/modes">modes</a>
     
 
 </div>
-        <br>Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught—through rote memorization—obscures some important aspects of diatonic collections, which this article will seek to illuminate.
+        <br>Key signatures are a fundamental part of tonal music, and are typically taught in early stages of learning music theory. However, the manner in which they are normally taught obscures some important aspects of diatonic collections, which this article will seek to illuminate.
         <p></p>
     </div>
     <div class="article-text">
-        <p>I suspect that when most people first learn about key signatures, they learn them by rote memorization. When first learning to read music on an instrument, a student will commonly begin with pieces in C major, with no sharps or flats in the key signature. Next, the student might begin playing pieces in G major, or F major, with one sharp and one flat, respectively. Gradually, the student will play pieces with more and more sharps or flats, memorizing which key signatures go with which keys.</p>
-<p>At some point, the student will be introduced to a system usually called “the order of sharps and flats,” or something similar. Probably at this time, the student will also be shown the famous “circle of fifths” diagram. When I was first taught the order of sharps and flats, it was simply taught to me as something that needed to be memorized, along with a handy mnemonic:</p>
-<p>Order of sharps: F-C-G-D-A-E-B. “Father Charles Goes Down And Ends Battle.”<br><br>
-Order of flats: B-E-A-D-G-C-F. “Battle Ends And Down Goes Charles’ Father.”</p>
+        <p>In my article on <a href="/understanding-key-signatures">understanding key signatures</a>,</p>
+<p>Order of sharps: F-C-G-D-A-E-B<br><br>
+Order of flats: B-E-A-D-G-C-F</p>
+<p>F - Lydian<br><br>
+C - Ionian<br><br>
+G - Mixolydian<br><br>
+D - Dorian<br><br>
+A - Aeolian<br><br>
+E - Phrygian<br><br>
+B - Locrian</p>
+<p>B - Locrian<br><br>
+E - Phrygian<br><br>
+A - Aeolian<br><br>
+D - Dorian<br><br>
+G - Mixolydian<br><br>
+C - Ionian<br><br>
+F - Lydian</p>
+<p>F-C-G-D-A-E-B - Lydian<br><br>
+F-C-G-D-A-E-Bb - Ionian<br><br>
+F-C-G-D-A-Eb-Bb - Mixolydian<br><br>
+F-C-G-D-Ab-Eb-Bb - Dorian<br><br>
+F-C-G-Db-Ab-Eb-Bb - Aeolian<br><br>
+F-C-Gb-Db-Ab-Eb-Bb - Phrygian<br><br>
+F-Cb-Gb-Db-Ab-Eb-Bb - Locrian</p>
+<p>B-E-A-D-G-C-F - Locrian<br><br>
+B-E-A-D-G-C-F# - Phrygian<br><br>
+B-E-A-D-G-C#-F# - Aeolian<br><br>
+B-E-A-D-G#-C#-F# - Dorian<br><br>
+B-E-A-D#-G#-C#-F# - Mixolydian<br><br>
+B-E-A#-D#-G#-C#-F# - Ionian<br><br>
+B-E#-A#-D#-G#-C#-F# - Lydian</p>
 <p>One very good thing about that particular mnemonic is that it can be read, and makes sense forward and backward. That illustrates a very important aspect of the order of sharps and flats: each is the retrograde of the other. On the other hand, there is one very bad thing about the mnemonic: it is not necessary, and it obscures the structure behind the two orders. Instead of a mnemonic, I will offer the following definition:</p>
 <p><strong>Definition: The order of sharps is a series of six perfect fifths, starting on F; the order of flats is a series of six perfect fourths, starting on B.</strong></p>
 <p>I would assert that a student should learn intervals well enough to be able to spell a series of prefect fifths or perfect fourths without the need of a mnemonic, much the same as a student should be able to spell any triad or seventh chord. If, instead of simply memorizing a mnemonic, we take a close look at the structure of the order of sharps and the order of flats, we can make some observations that lead to a deeper understanding.</p>

@@ -1,5 +1,5 @@
 ---
-layout: article.njk
+layout: layouts/article.njk
 title: "Generated Collections"
 author: Chester Jankowski
 date: "2024-10-15"

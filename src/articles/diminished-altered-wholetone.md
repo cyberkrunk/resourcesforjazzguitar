@@ -1,5 +1,5 @@
 ---
-layout: article.njk
+layout: layouts/article.njk
 eleventyNavigation:
     key: diminished altered wholetone
     parent: Scales

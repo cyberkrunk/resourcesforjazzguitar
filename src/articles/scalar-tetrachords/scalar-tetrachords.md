@@ -1,5 +1,5 @@
 ---
-layout: article.njk
+layout: layouts/article.njk
 title: "Scalar Tetrachords"
 author: Chester Jankowski
 date: "2024-07-09"

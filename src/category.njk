@@ -7,7 +7,7 @@ categories:
  - scales
  - "music theory"
 title: "Category archive."
-layout: "base.njk"
+layout: "layouts/base.njk"
 author: "Resources For Jazz Guitar"
 description: "Category archive."
 permalink: "category/{{ categories | slugify }}/index.html"
@@ -22,7 +22,7 @@ coverImage: "culturednyc-og-image.png"
     {% for post in collections.post | reverse %}
         {% if post.data.categories == item %}
             <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
-            {% include 'byline.njk' %}
+            {% include 'layouts/byline.njk' %}
             <br>
             {{ post.data.description }}
             <p></p>

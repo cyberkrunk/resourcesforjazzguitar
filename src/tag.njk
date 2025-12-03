@@ -6,7 +6,7 @@ pagination:
   filter:
     - all
     - posts
-layout: "base.njk"
+layout: "layouts/base.njk"
 permalink: "/tag/{{ tag | slugify }}/"
 eleventyExcludeFromCollections: "true"
 title: "Tag archive."
@@ -25,7 +25,7 @@ coverImage: "culturednyc-og-image.png"
 
   <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
 
-  {% include 'byline.njk' %}
+  {% include 'layouts/byline.njk' %}
 
   <br>
 

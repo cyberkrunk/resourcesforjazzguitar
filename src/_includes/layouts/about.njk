@@ -1,13 +1,11 @@
 ---
-layout: "base.njk"
+layout: "layouts/base.njk"
 ogType: "article"
 ---
 <article>
     <div class="article-hero">
         <h1>{{ title }}</h1>
-        {% include 'byline-article.njk' %}
-        <br>{{ description }}
-        <p></p>
+        <p>Chester Jankowski, <em>B.Mus., Mus.M., Mus.Doc.</em></p>
     </div>
     <div class="article-text">
         {{ content | safe }}
