@@ -8,11 +8,11 @@
     {% endfor %}
 
     {% for tag in post.data.tags | filterTagList %}
-    {% if loop.first %}
-    <i class="fa-solid fa-tags"></i>
-    {% endif %}
-    <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>
-    {%- if not loop.last %}, {% endif %}
+        {% if loop.first %}
+            <i class="fa-solid fa-tags"></i>
+        {% endif %}
+        <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>
+        {%- if not loop.last %}, {% endif %}
     {% endfor %}
 </div>
 
