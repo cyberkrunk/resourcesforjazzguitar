@@ -6,7 +6,7 @@ eleventyNavigation:
     order: 1
 title: Dominant 7b5 and the Diminished, Altered, and Wholetone Scales
 author: Chester Jankowski
-date: "2023-02-01"
+date: 2023-02-01
 categories:
     - scales
 tags:

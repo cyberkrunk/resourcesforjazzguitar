@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Understanding Diatonic Quartal Harmony"
 author: Chester Jankowski
-date: "2025-11-15"
+date: 2025-11-15
 categories:
     - "music theory"
 tags:

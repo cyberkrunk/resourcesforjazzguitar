@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Visualizing the Diatonic Ic Vector"
 author: Chester Jankowski
-date: "2024-05-26"
+date: 2024-05-26
 categories:
     - "music theory"
 tags:

@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Scalar Tetrachords"
 author: Chester Jankowski
-date: "2024-07-09"
+date: 2024-07-09
 categories:
     - "scales"
 tags:

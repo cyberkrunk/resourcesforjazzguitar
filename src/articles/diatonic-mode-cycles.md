@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Diatonic Mode Cycles"
 author: Chester Jankowski
-date: "2024-10-20"
+date: 2024-10-20
 categories:
     - "music theory"
 tags:

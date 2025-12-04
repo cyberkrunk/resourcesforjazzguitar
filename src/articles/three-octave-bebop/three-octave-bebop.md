@@ -2,7 +2,7 @@
 layout: layouts/article.njk
 title: "Three Octave Bebop Scale Runs"
 author: Chester Jankowski
-date: "2024-10-18"
+date: 2024-10-18
 categories:
     - "scales"
 tags:
