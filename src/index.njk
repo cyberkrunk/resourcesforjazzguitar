@@ -4,12 +4,14 @@ layout: "layouts/base.njk"
 eleventyExcludeFromCollections: "true"
 description: "Music theory and practice materials for Jazz Guitar."
 coverImage: "resources-jazz-guitar-cover-image.png"
+filter: post
 ---
-
+{% set postslist = collections.post %}
 <div class="post-list">
     <ol reversed class="postlist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
         {% for post in collections.post | reverse %}
-            <li><a href="{{ post.url }}" class="postlist-link">{{ post.data.title }}</a></li>
+            <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
             {% include 'layouts/byline.njk' %}
             <br>
             {{ post.data.description }}

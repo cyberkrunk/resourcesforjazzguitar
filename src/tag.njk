@@ -1,39 +1,15 @@
 ---
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - posts
+title: "All tags"
 layout: "layouts/base.njk"
-permalink: "/tag/{{ tag | slugify }}/"
+description: "List of blog categories."
 eleventyExcludeFromCollections: "true"
-title: "Tag archive."
-description: "Tag archive."
-coverImage: "culturednyc-og-image.png"
+permalink: "/tag/"
 ---
+<h1>{{ title }}</h1>
 
-<h3>Tag archive: {{ tag }}</h3>
-<br>
-<div class="post-list">
 <ul>
-
-{% set taglist = collections[ tag ] %}
-
-{% for post in taglist | reverse %}
-
-  <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
-
-  {% include 'layouts/byline.njk' %}
-
-  <br>
-
-  {{ post.data.description }}
-
-  <p></p>
-
+{% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
+	{% set tagUrl %}/tag/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
-
 </ul>
-</div>

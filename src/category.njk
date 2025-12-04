@@ -1,34 +1,20 @@
 ---
-pagination:
-  data: categories
-  size: 1
-  alias: categories
 categories:
  - scales
- - "music theory"
-title: "Category archive."
+ - music-theory
+title: "All categories"
 layout: "layouts/base.njk"
-author: "Resources For Jazz Guitar"
-description: "Category archive."
-permalink: "category/{{ categories | slugify }}/index.html"
+description: "List of blog categories."
 eleventyExcludeFromCollections: "true"
-coverImage: "culturednyc-og-image.png"
+permalink: "category/"
 ---
-{%- for item in pagination.items %}
-    <h3>Category archive: {{ item }}</h3>
-    <br>
-    <div class="post-list">
-    <ul>
-    {% for post in collections.post | reverse %}
-        {% if post.data.categories == item %}
-            <h1><li><a href="{{ post.url }}">{{ post.data.title }}</a></li></h1>
-            {% include 'layouts/byline.njk' %}
-            <br>
-            {{ post.data.description }}
-            <p></p>
-        {% endif %}
-    {% endfor %}
-    </ul>
-    </div>
-{% endfor -%}
 
+<h1>{{ title }}</h1>
+
+<ul>
+{% for category in categories %}
+
+<li><i class="fa-solid fa-folder"></i> <a href="/category/{{ category }}/">{{ category }}</a></li>
+
+{% endfor %}
+</ul>

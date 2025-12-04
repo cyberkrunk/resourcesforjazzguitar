@@ -1,0 +1,41 @@
+---
+pagination:
+  data: categories
+  size: 1
+  alias: categories
+categories:
+ - scales
+ - music theory
+title: "Category archive."
+layout: "layouts/base.njk"
+author: "Resources For Jazz Guitar"
+description: "Category archive."
+permalink: "category/{{ categories | slugify }}/index.html"
+eleventyExcludeFromCollections: "true"
+coverImage: "culturednyc-og-image.png"
+---
+{%- for item in pagination.items %}
+    <h1>Category archive: “{{ item }}” </h1>
+    {% set counter = 0 %}
+    {% for post in collections.post %}
+        {% if post.data.categories == item %}
+            {% set counter = counter +1 %}
+        {% endif %}
+    {% endfor %}
+    {% set counter = counter +1 %}
+    <ol reversed class="postlist" style="--postlist-index: {{ counter }}">
+    {%- for post in collections.post | reverse %}
+        {% if post.data.categories == item %}
+            <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+            {% include 'layouts/byline.njk' %}
+             <br>
+            {{ post.data.description }}
+        <p></p>
+        {% endif %}
+    {%- endfor %}
+    </ol>
+{% endfor -%}
+
+<p>See <a href="/category/">all categories</a>.</p>
+

@@ -1,0 +1,34 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - post
+layout: "layouts/base.njk"
+permalink: "/tag/{{ tag | slugify }}/"
+eleventyExcludeFromCollections: "true"
+title: "Tag archive."
+description: "Tag archive."
+coverImage: "culturednyc-og-image.png"
+---
+
+<h1>Tag archive: {{ tag }}</h1>
+<br>
+{% set postslist = collections[ tag ] %}
+<div class="post-list">
+  <ol reversed class="postlist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
+  {% set taglist = collections[ tag ] %}
+  {% for post in taglist | reverse %}
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    {% include 'layouts/byline.njk' %}
+    <br>
+    {{ post.data.description }}
+    <p></p>
+  {% endfor %}
+  </ol>
+</div>
+
+<p>See <a href="/tag/">all tags</a>.</p>
