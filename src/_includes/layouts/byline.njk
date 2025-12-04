@@ -3,7 +3,7 @@
     <i class="fa-solid fa-calendar"></i>{{ post.data.date | readableDate("LLLL d yyyy") }}
     <i class="fa-solid fa-folder"></i>
     {% for category in post.data.categories %}
-        <a href="/categories/{{ category | slugify }}"> {{ category }}</a>
+        <a href="/category/{{ category | slugify }}"> {{ category }}</a>
         {%- if not loop.last %}, {% endif %}
     {% endfor %}
 
@@ -11,7 +11,7 @@
     {% if loop.first %}
     <i class="fa-solid fa-tags"></i>
     {% endif %}
-    <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+    <a href="/tag/{{ tag | slugify }}">{{ tag }}</a>
     {%- if not loop.last %}, {% endif %}
     {% endfor %}
 </div>
