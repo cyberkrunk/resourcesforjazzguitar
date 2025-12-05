@@ -39,15 +39,15 @@ With our definition in place, we can begin experimenting with accidentals needed
 
 $$F-C-G-D-A-E-B$$
 
-Let’s say that we want to add a single accidental, a sharp, to transform this into a different diatonic collection. We try C\sharp, but now we have two tritones, thus failing our definition. Try G\sharp, same result. Try D\sharp, same result, and so forth. There is, in fact, only one note we can make sharp and still match our definition: F\sharp. Now we have the following:
+Let’s say that we want to add a single accidental, a sharp, to transform this into a different diatonic collection. We try $C\sharp\\,$ but now we have two tritones, thus failing our definition. Try $G\sharp\\,$ same result. Try $D\sharp\\,$ same result, and so forth. There is, in fact, only one note we can make sharp and still match our definition: $F\sharp\\.$ Now we have the following:
 
 $$F\sharp-C-G-D-A-E-B$$
 
-That meets our definition perfectly, but the order of intervals is different, so let’s move the F\sharp to the end of the chain. Now, once again, we have our tritone at the boundaries:
+That meets our definition perfectly, but the order of intervals is different, so let’s move the $F\sharp$ to the end of the chain. Now, once again, we have our tritone at the boundaries:
 
 $$C-G-D-A-E-B-F\sharp$$
 
-If we again try adding a single sharp to the various notes, we again find that only one note can be made sharp, and still match our definition: C\sharp. Once again, we move the C\sharp to the end of the chain to keep the tritone at the boundaries. Now we have the following:
+If we again try adding a single sharp to the various notes, we again find that only one note can be made sharp, and still match our definition: $C\sharp\\.$ Once again, we move the $C\sharp$ to the end of the chain to keep the tritone at the boundaries. Now we have the following:
 
 $$G-D-A-E-B-F\sharp-C\sharp$$
 
