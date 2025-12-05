@@ -63,14 +63,15 @@ $$\begin{align}
 As we can see, there is nothing arbitrary about this order. It is, in fact, the only order in which we can add one sharp at a time and create a new correct diatonic collection with each step. If instead, we transform each collection by adding a single flat each time, to process is similar. Each time, we add a flat to “fix” the boundary tritone into a perfect fourth, thus creating a single new boundary tritone:
 
 $$\begin{align}
-B-E-A-&&D-G-C-F\\
-E-A-D-&G-C-F-B\flat\\
-A-D-G-&C-F-B\flat-E\flat\\
-D-G-C-&F-B\flat-E\flat-A\flat\\
-G-C-F-&B\flat-E\flat-A\flat-D\flat\\
-C-F-B\flat-&E\flat-A\flat-D\flat-G\flat\\
-F-B\flat-E\flat-&A\flat-D\flat-G\flat-C\flat\\
-B\flat-E\flat-A\flat-&D\flat-G\flat-C\flat-F\flat\end{align}$$
+&B-E-A-D-G-C-F\\
+&E-A-D-G-C-F-B\flat\\
+&A-D-G-C-F-B\flat-E\flat\\
+&D-G-C-F-B\flat-E\flat-A\flat\\
+&G-C-F-B\flat-E\flat-A\flat-D\flat\\
+&C-F-B\flat-E\flat-A\flat-D\flat-G\flat\\
+&F-B\flat-E\flat-A\flat-D\flat-G\flat-C\flat\\
+&B\flat-E\flat-A\flat-D\flat-G\flat-C\flat-F\flat\end{align}$$
+
 Once again, this order of adding a single flat at a time to create a new diatonic collection is the only one that works. It is also important to reiterate that in each step, we are “fixing” the previous tritone and creating a new tritone at the boundary. Therefore, the last accidental in each order represents a member of the single tritone that belongs to that collection. In Observation 3 above, we noted that the order of sharps always ends on the leading tone, and the order of flats always ends on the 4th scale degree. Now we have an understanding of exactly why this is the case. We can also utilize the common advice to “go up a semitone from the last sharp, go down a perfect fourth from the last flat,” to find the name of the major key from its signature—but, once again, now we understand *why*.
 
 *Notes*
