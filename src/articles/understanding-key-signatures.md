@@ -1,4 +1,4 @@
- ---
+---
 layout: layouts/article.njk
 title: "Understanding Key Signatures"
 author: Chester Jankowski
