@@ -16,8 +16,8 @@ I suspect that when most people first learn about key signatures, they learn the
 
 At some point, the student will be introduced to a system usually called “the order of sharps and flats,” or something similar. Probably at this time, the student will also be shown the famous “circle of fifths” diagram. When I was first taught the order of sharps and flats, it was simply taught to me as something that needed to be memorized, along with a handy mnemonic:
 
-Order of sharps: F-C-G-D-A-E-B. “Father Charles Goes Down And Ends Battle.”<br>
-Order of flats: B-E-A-D-G-C-F. “Battle Ends And Down Goes Charles’ Father.”
+Order of sharps: $F-C-G-D-A-E-B\\.$ “Father Charles Goes Down And Ends Battle.”<br>
+Order of flats: $B-E-A-D-G-C-F\\.$ “Battle Ends And Down Goes Charles’ Father.”
 
 One very good thing about that particular mnemonic is that it can be read, and makes sense forward and backward. That illustrates a very important aspect of the order of sharps and flats: each is the retrograde of the other. On the other hand, there is one very bad thing about the mnemonic: it is not necessary, and it obscures the structure behind the two orders. Instead of a mnemonic, I will offer the following definition:
 
@@ -37,38 +37,40 @@ Now that we have some insight into the structure of the order of sharps and flat
 
 With our definition in place, we can begin experimenting with accidentals needed to transform one diatonic collection into another. Let’s start with the diatonic collection in C:
 
-F-C-G-D-A-E-B
+$$F-C-G-D-A-E-B$$
 
-Let’s say that we want to add a single accidental, a sharp, to transform this into a different diatonic collection. We try C#, but now we have two tritones, thus failing our definition. Try G#, same result. Try D#, same result, and so forth. There is, in fact, only one note we can make sharp and still match our definition: F#. Now we have the following:
+Let’s say that we want to add a single accidental, a sharp, to transform this into a different diatonic collection. We try C\sharp, but now we have two tritones, thus failing our definition. Try G\sharp, same result. Try D\sharp, same result, and so forth. There is, in fact, only one note we can make sharp and still match our definition: F\sharp. Now we have the following:
 
-F#-C-G-D-A-E-B
+$$F\sharp-C-G-D-A-E-B$$
 
-That meets our definition perfectly, but the order of intervals is different, so let’s move the F# to the end of the chain. Now, once again, we have our tritone at the boundaries:
+That meets our definition perfectly, but the order of intervals is different, so let’s move the F\sharp to the end of the chain. Now, once again, we have our tritone at the boundaries:
 
-C-G-D-A-E-B-F#
+$$C-G-D-A-E-B-F\sharp$$
 
-If we again try adding a single sharp to the various notes, we again find that only one note can be made sharp, and still match our definition: C#. Once again, we move the C# to the end of the chain to keep the tritone at the boundaries. Now we have the following:
+If we again try adding a single sharp to the various notes, we again find that only one note can be made sharp, and still match our definition: C\sharp. Once again, we move the C\sharp to the end of the chain to keep the tritone at the boundaries. Now we have the following:
 
-G-D-A-E-B-F#-C#
+$$G-D-A-E-B-F\sharp-C\sharp$$
 
 If we keep experimenting, it becomes clear that in order to match our definition, the only note we can alter is one of the boundary notes. Recall that the boundary notes are always a tritone. So the only procedure that works is to “fix” the tritone at the boundary into a perfect fifth, shift that note to the end of the chain, and thereby create a new tritone at the boundary. Continuing this process, these are the results:
 
-D-A-E-B-F#-C#-G#<br>
-A-E-B-F#-C#-G#-D#<br>
-E-B-F#-C#-G#-D#-A#<br>
-B-F#-C#-G#-D#-A#-E#<br>
-F#-C#-G#-D#-A#-E#-B#<br>
+$$\begin{align}
+&D-A-E-B-F\sharp-C\sharp-G\sharp\\
+&A-E-B-F\sharp-C\sharp-G\sharp-D\sharp\\
+&E-B-F\sharp-C\sharp-G\sharp-D\sharp-A\sharp\\
+&B-F\sharp-C\sharp-G\sharp-D\sharp-A\sharp-E\sharp\\
+&F\sharp-C\sharp-G\sharp-D\sharp-A\sharp-E\sharp-B\sharp\end{align}$$
 
 As we can see, there is nothing arbitrary about this order. It is, in fact, the only order in which we can add one sharp at a time and create a new correct diatonic collection with each step. If instead, we transform each collection by adding a single flat each time, to process is similar. Each time, we add a flat to “fix” the boundary tritone into a perfect fourth, thus creating a single new boundary tritone:
 
-B-E-A-D-G-C-F<br>
-E-A-D-G-C-F-Bb<br>
-A-D-G-C-F-Bb-Eb<br>
-D-G-C-F-Bb-Eb-Ab<br>
-G-C-F-Bb-Eb-Ab-Db<br>
-C-F-Bb-Eb-Ab-Db-Gb<br>
-F-Bb-Eb-Ab-Db-Gb-Cb<br>
-Bb-Eb-Ab-Db-Gb-Cb-Fb<br>
+$$\begin{align}
+&B-E-A-D-G-C-F\\
+&E-A-D-G-C-F-B\flat\\
+&A-D-G-C-F-B\flat-E\flat\\
+&D-G-C-F-B\flat-E\flat-A\flat\\
+&G-C-F-B\flat-E\flat-A\flat-D\flat\\
+&C-F-B\flat-E\flat-A\flat-D\flat-G\flat\\
+&F-B\flat-E\flat-A\flat-D\flat-G\flat-C\flat\\
+&B\flat-E\flat-A\flat-D\flat-G\flat-C\flat-F\flat\end{align}$$
 
 Once again, this order of adding a single flat at a time to create a new diatonic collection is the only one that works. It is also important to reiterate that in each step, we are “fixing” the previous tritone and creating a new tritone at the boundary. Therefore, the last accidental in each order represents a member of the single tritone that belongs to that collection. In Observation 3 above, we noted that the order of sharps always ends on the leading tone, and the order of flats always ends on the 4th scale degree. Now we have an understanding of exactly why this is the case. We can also utilize the common advice to “go up a semitone from the last sharp, go down a perfect fourth from the last flat,” to find the name of the major key from its signature—but, once again, now we understand *why*.
 
