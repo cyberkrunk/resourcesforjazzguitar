@@ -76,4 +76,4 @@ Once again, this order of adding a single flat at a time to create a new diatoni
 
 *Notes*
 
-[^1]:I'm using the term "collection" here rather than "scale" because we are thinking about all the possible relations between pitches, and not any one particular ordering.
+[^1]:I'm using the term “collection” here rather than “scale” because we are thinking about all the possible relations between pitches, and not any one particular ordering.

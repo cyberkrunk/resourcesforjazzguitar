@@ -20,17 +20,17 @@ description: "A generated collection is formed by repeatedly adding a single int
 
 In this article, we will borrow some concepts from abstract algebra and group theory to explore some aspects of the scales and chords we commonly use in jazz. Please do not be put off by the prospect of math, it will be kept at a very simple level. Looking at the collections in this way illuminates how they are constructed, how they are symmetrical, and it is especially helpful in understanding subset relations.
 
-**Definition: a generated collection is formed by repeatedly adding a single interval, which we term the "generator."**
+**Definition: a generated collection is formed by repeatedly adding a single interval, which we term the “generator.”**
 
-Let's begin with a really simple example, and use the generator of 1 semitone. For the rest of this article, generators will always be in semitones, and will be enclosed in angle brackets, like this: $\langle1\rangle\\.$ We will start with a single pitch class $(0)\\.$ In the first iteration, we add an interval of $\langle1\rangle\\,$ which gives us the set $(0,1)\\.$ In the second iteration, we add another interval of $\langle1\rangle\\,$ and now have the set $(0,1,2)\\.$ If we continue iterating, after eleven steps, we will have the set $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ which we can think of as the chromatic scale, or in pc set theory what is often termed the "aggregate." Since we are doing math in mod $12\\,$ we can keep iterating, but we won't add any new pitch classes, the set will just keep cycling through the same integers; this is sometimes termed a "cyclic set."
+Let’s begin with a really simple example, and use the generator of 1 semitone. For the rest of this article, generators will always be in semitones, and will be enclosed in angle brackets, like this: $\langle1\rangle\\.$ We will start with a single pitch class $(0)\\.$ In the first iteration, we add an interval of $\langle1\rangle\\,$ which gives us the set $(0,1)\\.$ In the second iteration, we add another interval of $\langle1\rangle\\,$ and now have the set $(0,1,2)\\.$ If we continue iterating, after eleven steps, we will have the set $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ which we can think of as the chromatic scale, or in pc set theory what is often termed the “aggregate.” Since we are doing math in mod $12\\,$ we can keep iterating, but we won’t add any new pitch classes, the set will just keep cycling through the same integers; this is sometimes termed a "cyclic set."
 
-Now let's try using a generator of $\langle2\rangle$. After five iterations, we will have the set $(0,2,4,6,8,10)\\,$ which is the wholetone scale.
+Now let’s try using a generator of $\langle2\rangle$. After five iterations, we will have the set $(0,2,4,6,8,10)\\,$ which is the wholetone scale.
 
 A generator of $\langle3\rangle$ gives us the set $(0,3,6,9)\\,$ which is a diminished 7th chord.
 
 A generator of $\langle4\rangle$ gives us the set $(0,4,8)\\,$ which is an augmented triad.
 
-The generator of $\langle5\rangle$ is another special case, so let's look at all the iterations of this one:
+The generator of $\langle5\rangle$ is another special case, so let’s look at all the iterations of this one:
 
 $$\begin{align}
 &(0)\\
@@ -62,7 +62,7 @@ $$\begin{align}
 &(0,1,2,3,4,5,6,8,9,10,11)\\
 &(0,1,2,3,4,5,6,7,8,9,10,11)\end{align}$$
 
-Looking at these sets closely, we see that they are some of the most important sets used in jazz. The set with cardinality 5, $(0,3,5,8,10)\\,$ is the pentatonic scale. The set with cardinality 6, $(0,1,3,5,8,10)\\,$ is the hexatonic scale. The set with cardinality 7, $(0,1,3,5,6,8,10)\\,$ is the diatonic collection. It is also worth noting that this set is the first iteration which contains the interval of a tritone. The set with cardinality 9, $(0,1,3,4,5,6,8,10,11)\\,$ is the bebop scale. And finally, the set with cardinality 12, $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ is the chromatic scale, or aggregate.
+Looking at these sets closely, we see that they are some of the most important sets used in jazz. The set with cardinality 5, $(0,3,5,8,10)\\,$ is the pentatonic scale. The set with cardinality 6, $(0,1,3,5,8,10)\\,$ is the hexatonic[^1] scale. The set with cardinality 7, $(0,1,3,5,6,8,10)\\,$ is the diatonic collection. It is also worth noting that this set is the first iteration which contains the interval of a tritone. The set with cardinality 9, $(0,1,3,4,5,6,8,10,11)\\,$ is the bebop scale. And finally, the set with cardinality 12, $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ is the chromatic scale, or aggregate.
 
 Now let's go on the next generator, an interval of $\langle6\rangle\\,$ which gives us the set $(0,6)\\.$ Well, that does seem a bit anticlimactic, after the fecundity of generator $\langle5\rangle\\,$ does it not?
 
@@ -98,7 +98,7 @@ $$\begin{align}
 &(0,1,2,3,4,6,7,8,9,10,11)\\
 &(0,1,2,3,4,5,6,7,8,9,10,11)\end{align}$$
 
-Let's compare the cardinality 7 sets from the $\langle5\rangle$ and $\langle7\rangle$ generators:
+Let’s compare the cardinality 7 sets from the $\langle5\rangle$ and $\langle7\rangle$ generators:
 
 $$\begin{align}
 &(0,5,10,3,8,1,6)\\
@@ -108,11 +108,11 @@ We can see that the two sets are inversionally related. So, for example, instead
 
 Since the generator $\langle5\rangle$ and $\langle7\rangle$ sets are inversionally related, sets of the same cardinality are equivalent, so the set with cardinality 5 is the pentatonic scale, cardinality 6 is the hexatonic scale, cardinality 7 is the diatonic collection, cardinality 8 is the bebop scale, and cardinality 12 is the chromatic scale, or aggregate.
 
-Let's now look at the generator of $\langle8\rangle$, which gives us the set $(0,8,4)$. We can see that this is the inversion of the generator of $\langle4\rangle$. We can make a generalization that two generators which sum to twelve will generate equivalent, but inversionally-related collections, i.e.: generators $\langle1\rangle$ and $\langle11\rangle\\,$ generators $\langle2\rangle$ and $\langle10\rangle\\,$ $\langle3\rangle$ and $\langle9\rangle\\,$ $\langle4\rangle$ and $\langle8\rangle\\,$ $\langle5\rangle$ and $\langle7\rangle$. Generator $\langle6\rangle$ sums to 12 with itself, so it has no inversion partner.
+Let’s now look at the generator of $\langle8\rangle$, which gives us the set $(0,8,4)$. We can see that this is the inversion of the generator of $\langle4\rangle$. We can make a generalization that two generators which sum to twelve will generate equivalent, but inversionally-related collections, i.e.: generators $\langle1\rangle$ and $\langle11\rangle\\,$ generators $\langle2\rangle$ and $\langle10\rangle\\,$ $\langle3\rangle$ and $\langle9\rangle\\,$ $\langle4\rangle$ and $\langle8\rangle\\,$ $\langle5\rangle$ and $\langle7\rangle$. Generator $\langle6\rangle$ sums to 12 with itself, so it has no inversion partner.
 
 What other generalizations can we make? Well, perhaps the most important one is that only generators which are co-prime with 12 will generate the entire chromatic scale or aggregate. There are only four such generators: $\langle1\rangle$ and its inversion partner $\langle11\rangle\\,$ $\langle5\rangle$ and its inversion partner $\langle7\rangle$.
 
-Let's extend that a bit further by looking at the Greatest Common Divisor of each generator and 12. For any generator $a$, a collection of $12/gcd(a,12)$ members will be created, and the number of unique collections within the aggregate will be $gcd(a,12)$.
+Let’s extend that a bit further by looking at the Greatest Common Divisor of each generator and 12. For any generator $a$, a collection of $12/gcd(a,12)$ members will be created, and the number of unique collections within the aggregate will be $gcd(a,12)$.
 
 | Generator | Unique collections | \# Members | Name |
 | --- | ---| --- | --- |
@@ -130,7 +130,7 @@ Let's extend that a bit further by looking at the Greatest Common Divisor of eac
 
 ## The symmetry of these collections
 
-In addition to looking at the pitch class sets that result from these generators, it is also helpful to think of them as interval sets. For example, let's look at generator 5, cardinality 5 though 8:
+In addition to looking at the pitch class sets that result from these generators, it is also helpful to think of them as interval sets. For example, let’s look at generator 5, cardinality 5 though 8:
 
 | Cardinality | Intervals | Name |
 | --- | --- | --- |
@@ -160,3 +160,7 @@ The following sets commonly used in jazz are each generated by repeating a singl
 Each of the above listed sets is symmetrical.
 
 The pentatonic is a subset of the hexatonic, which is a subset of the diatonic, which is a subset of the bebop scale.
+
+*Notes*
+
+[^1] I’m using the name hexatonic in the way it is most often used in a jazz context, that is, as a major scale without the seventh degree. Note that in academic music theory, the hexatonic collection more often refers to what is called in jazz the augmented scale.
