@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "understanding-key-signatures.md",
+                "file": "diatonic-mode-cycles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "understanding-key-signatures"
+              "title": "diatonic-mode-cycles"
             }
           }
         ],
@@ -186,12 +186,13 @@
   },
   "active": "c702dd66377e4cf0",
   "lastOpenFiles": [
-    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "visualizing-diatonic-ic-vector.md",
+    "diatonic-mode-cycles.md",
+    "scalar-tetrachords/scalar-tetrachords.md",
+    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "understanding-key-signatures.md",
     "understanding-diatonic-quartal-harmony.md",
     "generated-collections.md",
-    "diminished-altered-wholetone.md",
-    "diatonic-mode-cycles.md"
+    "diminished-altered-wholetone.md"
   ]
 }

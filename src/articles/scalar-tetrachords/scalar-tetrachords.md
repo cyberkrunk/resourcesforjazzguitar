@@ -20,53 +20,53 @@ As I began my own practice focused on these two areas, I found myself wondering 
 
 I think that part of the reason lies in the fact that we guitarists tend to have an over-emphasis on practicing scales strictly in position. While it is true that scale practice in a single position leads to good muscle memory and fast execution, it places an obvious limit on range, with a typical position providing at best just over two octaves. Position playing also tends to "chunk" a scale into the entire position, making it difficult to change to any arbitrary scale at any point within the scale.
 
-In my own practice, I have come to understand that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for further articles and lessons. In other words, this article is more focused on the theory rather than the practice of this area.
+In my own practice, I have come to understand that working on scales in four-note groups, or tetrachords, helps to solve both problems. In this article, I will focus on the tetrachords themselves, how they are constructed, and how they are combined to create scales. I will leave the details of how to effectively practice them for further articles and lessons. In other words, this article is focused on the theory rather than the practice of this area.
 
 ## Constructing scalar tetrachords: intervallic constraints
 
 What makes a tetrachord "scale-like" or scalar? The two key properties of scales are that they are constructed of small intervals, and they continue in one direction. Let's dive in and start constructing tetrachords by listing some constraints on which small intervals may be used. Let's define the small intervals as being intervals of 1, 2, or 3 semitones. But to begin with, let's look at tetrachords formed by intervals of 1 or 2 semitones.
 
-**Constraint 1:** An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; put another way, the interval subset i(1-1) is not allowed.
+**Constraint 1:** An interval of 1 is allowed, but may not be repeated and must be followed by a different interval; put another way, the interval subset $\langle1-1\rangle$ is not allowed.
 
 **Constraint 2:** An interval of 2 is allowed, and may also be repeated.
 
 With only these two constraints in play, we can generate a group of five tetrachords which combine to form many of the most important scales in jazz: the diatonic modes, melodic minor modes, diminished scale and wholetone scale. For each tetrachord, I will show 1) a proposed name for the tetrachord, 2) the ordered interval set used to construct the tetrachord, 3) an ordered pitch set of the tetrachord using integer notation, 4) a comment on the symmetrical properties of the tetrachord.
 
-| Tetrachord name | Interval set | Pitch set | Symmetry |
-|---|---|---|---|
-| diminished | i(1-2-1) | p(0,1,3,4) | self |
-| phrygian | i(1-2-2) |  p(0,1,3,5) |  mirror of major |
-| minor |  i(2-1-2) |  p(0,2,3,5) |  self |
-| major |  i(2-2-1) |  p(0,2,4,5) | mirror of phrygian |
-| lydian |  i(2-2-2) |  p(0,2,4,6) |  self |
+| Tetrachord name | Interval set          | Pitch set   | Symmetry           |
+| --------------- | --------------------- | ----------- | ------------------ |
+| diminished      | $\langle1-2-1\rangle$ | $(0,1,3,4)$ | self               |
+| phrygian        | $\langle1-2-2\rangle$ | $(0,1,3,5)$ | mirror of major    |
+| minor           | $\langle2-1-2\rangle$ | $(0,2,3,5)$ | self               |
+| major           | $\langle2-2-1\rangle$ | $(0,2,4,5)$ | mirror of phrygian |
+| lydian          | $\langle2-2-2\rangle$ | $(0,2,4,6)$ | self               |
 
 Now let's revisit our first constraint about intervals of 1. If we now allow immediate repetitions of interval 1, we add three more tetrachords. This brings our total to eight tetrachords, which is the total number of tetrachords one can construct out of the intervals 1 and 2.
 
 **Constraint 1a:** An interval of 1 is allowed, and also may now be repeated.
 
-| Tetrachord name | Interval set | Pitch set | Symmetry |
-|---|---|---|---|
-| chromatic | i(1-1-1) | p(0,1,2,3) | self |
-|   | i(1-1-2) | p(0,1,2,4) | mirror of "Straight, No Chaser" |
-| "Straight, No Chaser" | i(2-1-1) | p(0,2,3,4) |  |
+| Tetrachord name       | Interval set          | Pitch set   | Symmetry                        |
+| --------------------- | --------------------- | ----------- | ------------------------------- |
+| chromatic             | $\langle1-1-1\rangle$ | $(0,1,2,3)$ | self                            |
+|                       | $\langle1-1-2\rangle$ | $(0,1,2,4)$ | mirror of "Straight, No Chaser" |
+| "Straight, No Chaser" | $\langle2-1-1\rangle$ | $(0,2,3,4)$ |                                 |
 
 
 With these three added tetrachords, we can now also construct the chromatic scale, as well as the family of bebop scales. Together with the scales we added previously, this now covers almost all of the most widely-used scales in jazz. However, we still have not been able to construct the pentatonic scales, or the harmonic minor and harmonic major scales. In order to add those scales, we will need additional tetrachords that include the interval of 3 semitones, so let's address that now, with a new constraint.
 
 **Constraint 3:** An interval of 3 is allowed, but may only be used once in the tetrachord.
 
-| Tetrachord name | Interval set | Pitch set | Symmetry |
-|---|---|---|---|
-| major b2 | i(1-3-1) | p(0,1,4,5) | self |
-|   | i(1-2-3) | p(0,1,3,6) |  |
-| all-interval | i(1-3-2) | p(0,1,4,6) |  |
-| minor #4 | i(2-1-3) | p(0,2,3,6) |  |
-|   | i(2-3-1) | p(0,2,5,6) |  |
-|   | i(3-1-2) | p(0,3,4,6) |  |
-| blues | i(3-2-1) | p(0,3,5,6) |  |
-| major pentatonic | i(2-2-3) | p(0,2,4,7) | mirror of minor pentatonic |
-| "I've Got Rhythm" | i(2-3-2) | p(0,2,5,7) | self |
-| minor pentatonic | i(3-2-2) | p(0,3,5,7) | mirror of major pentatonic |
+| Tetrachord name   | Interval set | Pitch set | Symmetry                   |
+| ----------------- | ------------ | --------- | -------------------------- |
+| major b2          | (1-3-1)      | (0,1,4,5) | self                       |
+|                   | (1-2-3)      | (0,1,3,6) |                            |
+| all-interval      | (1-3-2)      | (0,1,4,6) |                            |
+| minor #4          | (2-1-3)      | (0,2,3,6) |                            |
+|                   | (2-3-1)      | (0,2,5,6) |                            |
+|                   | (3-1-2)      | (0,3,4,6) |                            |
+| blues             | (3-2-1)      | (0,3,5,6) |                            |
+| major pentatonic  | (2-2-3)      | (0,2,4,7) | mirror of minor pentatonic |
+| "I've Got Rhythm" | (2-3-2)      | (0,2,5,7) | self                       |
+| minor pentatonic  | (3-2-2)      | (0,3,5,7) | mirror of major pentatonic |
 
 ## Constructing scales with the tetrachords
 
