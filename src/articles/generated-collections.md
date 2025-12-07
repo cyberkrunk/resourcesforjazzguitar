@@ -22,7 +22,7 @@ In this article, we will borrow some concepts from abstract algebra and group th
 
 **Definition: a generated collection is formed by repeatedly adding a single interval, which we term the “generator.”**
 
-Let’s begin with a really simple example, and use the generator of 1 semitone. For the rest of this article, generators will always be in semitones, and will be enclosed in angle brackets, like this: $\langle1\rangle\\.$ We will start with a single pitch class $(0)\\.$ In the first iteration, we add an interval of $\langle1\rangle\\,$ which gives us the set $(0,1)\\.$ In the second iteration, we add another interval of $\langle1\rangle\\,$ and now have the set $(0,1,2)\\.$ If we continue iterating, after eleven steps, we will have the set $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ which we can think of as the chromatic scale, or in pc set theory what is often termed the “aggregate.” Since we are doing math in mod $12\\,$ we can keep iterating, but we won’t add any new pitch classes, the set will just keep cycling through the same integers; this is sometimes termed a "cyclic set."
+Let’s begin with a really simple example, and use the generator of 1 semitone. For the rest of this article, generators will always be in semitones, and will be enclosed in angle brackets, like this: $\langle1\rangle\\.$ We will start with a single pitch class $(0)\\.$ In the first iteration, we add an interval of $\langle1\rangle\\,$ which gives us the set $(0,1)\\.$ In the second iteration, we add another interval of $\langle1\rangle\\,$ and now have the set $(0,1,2)\\.$ If we continue iterating, after eleven steps, we will have the set $(0,1,2,3,4,5,6,7,8,9,10,11)\\,$ which we can think of as the chromatic scale, or in pc set theory what is often termed the “aggregate.” Since we are doing math in mod $12\\,$ we can keep iterating, but we won’t add any new pitch classes, the set will just keep cycling through the same integers; this is sometimes termed a “cyclic set.”
 
 Now let’s try using a generator of $\langle2\rangle$. After five iterations, we will have the set $(0,2,4,6,8,10)\\,$ which is the wholetone scale.
 
@@ -163,4 +163,4 @@ The pentatonic is a subset of the hexatonic, which is a subset of the diatonic, 
 
 *Notes*
 
-[^1] I’m using the name hexatonic in the way it is most often used in a jazz context, that is, as a major scale without the seventh degree. Note that in academic music theory, the hexatonic collection more often refers to what is called in jazz the augmented scale.
+[^1]: I’m using the name hexatonic in the way it is most often used in a jazz context, that is, as a major scale without the seventh degree. Note that in academic music theory, the hexatonic collection more often refers to what is called in jazz the augmented scale. 
