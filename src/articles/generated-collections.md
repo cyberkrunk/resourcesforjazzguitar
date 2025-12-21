@@ -163,4 +163,4 @@ The pentatonic is a subset of the hexatonic, which is a subset of the diatonic, 
 
 *Notes*
 
-[^1]:I’m using the name hexatonic in the way it is most often used in a jazz context, that is, as a major scale without the seventh degree. Note that in academic music theory, the hexatonic collection more often refers to what is called in jazz the augmented scale. 
+[^1]:I’m using the name hexatonic in the way it is most often used in a jazz context, that is, as a major scale without the seventh degree. Note that in academic music theory, the hexatonic collection more often refers to what is called in jazz the augmented scale.
