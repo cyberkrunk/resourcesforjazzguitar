@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
+                "file": "generated-collections.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "understanding-diatonic-quartal-harmony"
+              "title": "generated-collections"
             }
           }
         ]
@@ -172,10 +172,10 @@
   },
   "active": "5ae1e2b2e870d902",
   "lastOpenFiles": [
+    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "diatonic-mode-cycles.md",
     "visualizing-diatonic-ic-vector.md",
     "scalar-tetrachords/scalar-tetrachords.md",
-    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "understanding-key-signatures.md",
     "understanding-diatonic-quartal-harmony.md",
     "generated-collections.md",
