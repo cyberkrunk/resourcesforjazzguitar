@@ -145,11 +145,11 @@ One thing that becomes instantly clear is that each of these sets is symmetrical
 
 The other aspects which become instantly obvious when looking at these generated collections through their interval sets are their mutual subset and superset relations. Let's look at the interval sets again, this time without labels:
 
-$$\begin{align}{c}
+$$\begin{array}{c}
 \langle5-5-5-5\rangle\\
 \langle5-5-5-5-5\rangle\\
 \langle5-5-5-5-5-5\rangle\\
-\langle5-5-5-5-5-5-5\rangle\end{align}$$
+\langle5-5-5-5-5-5-5\rangle\end{array}$$
 
 You can now see very clearly that the pentatonic is a subset of the hexatonic, which is a subset of the diatonic, which is a subset of the bebop scale. It also makes is easy to see that the hexatonic contains two pentatonic sets. To see this, align the first member of the pentatonic with the first member of the hexatonic; that is the first subset. Now align the first member of the pentatonic with the second member of the hexatonic; that is the second subset. Likewise, the diatonic contains three pentatonic sets, and the bebop scale contains four pentatonic sets.
 
