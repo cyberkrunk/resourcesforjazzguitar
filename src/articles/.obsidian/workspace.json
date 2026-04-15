@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "generated-collections.md",
+                "file": "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "generated-collections"
+              "title": "understanding-diatonic-quartal-harmony"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3ce941982c7b86e2",
@@ -172,13 +171,13 @@
   },
   "active": "5ae1e2b2e870d902",
   "lastOpenFiles": [
-    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
-    "diatonic-mode-cycles.md",
     "visualizing-diatonic-ic-vector.md",
+    "diminished-altered-wholetone.md",
+    "diatonic-mode-cycles.md",
+    "generated-collections.md",
+    "understanding-diatonic-quartal-harmony/understanding-diatonic-quartal-harmony.md",
     "scalar-tetrachords/scalar-tetrachords.md",
     "understanding-key-signatures.md",
-    "understanding-diatonic-quartal-harmony.md",
-    "generated-collections.md",
-    "diminished-altered-wholetone.md"
+    "understanding-diatonic-quartal-harmony.md"
   ]
 }
